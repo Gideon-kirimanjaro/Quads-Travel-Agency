@@ -1,17 +1,32 @@
 import React from "react";
+import CardWrapper from "../Ui/Wrapper/CardWrapper";
 
 const BodyText = () => {
   return (
-    <div>
-      <h4>
-        Asilia Africa offers an authentic East African safari experience that
-        leaves a positive impact on Africa’s crucial wilderness areas. Enjoy a
-        wide range of unique, high-quality safari options where you’ll encounter
-        the Serengeti, the Masai Mara, the Great Migration or one of our many
-        other iconic experiences. Our team welcomes you with warm hospitality
-        and brings you an immersive, genuine and remarkable safari experience
-        you’ll never forget...
-      </h4>
+    <div
+      style={{
+        backgroundColor: "#ECECEC",
+        paddingTop: "8px",
+        paddingBottom: "8px",
+        borderRadius: "5%",
+      }}
+    >
+      <CardWrapper>
+        <div className="px-md-5">
+          <div className="ps-md-5 pe-md-5">
+            <p className="p-md-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+              sunt vel, voluptas eaque ratione nam provident repellendus saepe
+              cum! Minima, laudantium sit. Architecto velit laboriosam ullam
+              aspernatur cupiditate doloribus provident. Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Laudantium ipsam nihil
+              temporibus asperiores at esse aperiam corrupti magnam impedit
+              delectus obcaecati, dolorum perferendis unde quia hic nostrum
+              nobis, repellendus eligendi.
+            </p>
+          </div>
+        </div>
+      </CardWrapper>
     </div>
   );
 };

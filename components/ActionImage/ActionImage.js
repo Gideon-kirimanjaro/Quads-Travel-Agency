@@ -1,5 +1,6 @@
 import { CarouselItem } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
+import CardWrapper from "../Ui/Wrapper/CardWrapper";
 
 const ActionImage = () => {
   const carouselImg = [
@@ -24,22 +25,44 @@ const ActionImage = () => {
   ];
 
   return (
-    // <Carousel>
-    //   {carouselImg.map((item, index) => {
-    //     <Carousel.Item key={item.id}>
-    //       <img className="d-block w-100" src={item.src} alt={item.alt} />
-    //       <Carousel.Caption>
-    //         <p>{item.Caption}</p>
-    //       </Carousel.Caption>
-    //     </Carousel.Item>;
-    //   })}
-    // </Carousel>
-    <Carousel>
-      <Carousel.Item>
-        <img src="/static/lion.jpg" />
-        <Carousel.Caption>Hello there</Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
+    <CardWrapper>
+      <div className="px-lg-5 pt-lg-3 ">
+        <Carousel>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="/static/bufallo.jpg"
+              alt="First slide"
+            />
+            <Carousel.Caption>
+              <p>Come explore the wild</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="/static/giraffe.jpg"
+              alt="Second slide"
+            />
+
+            <Carousel.Caption>
+              <p>An experience like no other</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="/static/lion.jpg"
+              alt="Third slide"
+            />
+
+            <Carousel.Caption>
+              <p>refresh through nature</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+        </Carousel>
+      </div>
+    </CardWrapper>
   );
 };
 
