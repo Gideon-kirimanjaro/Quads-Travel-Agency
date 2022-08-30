@@ -1,0 +1,8 @@
+.adventure {
+  background-image: url("/static/lion.jpg");
+  background-position: top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

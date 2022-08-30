@@ -1,9 +1,12 @@
 import React from "react";
 
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import About from "../components/About/About";
 const about = () => {
   return (
     <div>
-      <h3>This is the about page</h3>
+      <About />
     </div>
   );
 };

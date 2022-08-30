@@ -5,7 +5,7 @@ const BodyText = () => {
   return (
     <div
       style={{
-        backgroundColor: "#ECECEC",
+        backgroundColor: "#FFFFF9",
         paddingTop: "8px",
         paddingBottom: "8px",
         borderRadius: "5%",

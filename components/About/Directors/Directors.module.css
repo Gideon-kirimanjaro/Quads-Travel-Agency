@@ -1,0 +1,10 @@
+.directorImage {
+  border-radius: 40%;
+  border: 20px solid green;
+}
+.directorImage {
+  transition: all 2s ease;
+}
+.directorImage:hover {
+  transform: scale(1.1);
+}
