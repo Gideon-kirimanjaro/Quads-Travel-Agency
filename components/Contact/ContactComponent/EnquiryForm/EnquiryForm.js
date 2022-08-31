@@ -5,7 +5,7 @@ const EnquiryForm = () => {
   return (
     <div className=" p-5">
       <div>
-        <h3>Send a response</h3>
+        <h3>Send an enquiry</h3>
         <FormInput />
       </div>
     </div>

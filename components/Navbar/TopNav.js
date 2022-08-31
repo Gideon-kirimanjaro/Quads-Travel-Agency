@@ -2,6 +2,7 @@ import { Image } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import Link from "next/link";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Styles from "./Navbar.module.css";
 const TopNav = () => {
@@ -27,12 +28,8 @@ const TopNav = () => {
             <Nav className="ms-auto ">
               {navLinks.map((item, index) => {
                 return (
-                  <Nav.Link
-                    href={item.ref}
-                    key={index}
-                    className={Styles.links}
-                  >
-                    {item.title}
+                  <Nav.Link key={index} className={Styles.links}>
+                    <Link href={item.ref}>{item.title}</Link>
                   </Nav.Link>
                 );
               })}

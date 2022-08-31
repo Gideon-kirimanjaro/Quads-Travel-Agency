@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Header = (props) => {
@@ -7,12 +8,12 @@ const Header = (props) => {
         <h3 className="d-flex justify-content-center">{props.heading}</h3>{" "}
         <div className="d-flex justify-content-center">
           <button type="button" className={props.className}>
-            <a
-              className="text-primary text-decoration-none fw-bold"
+            <Link
+              className="text-warning text-decoration-none fw-bold"
               href={props.href}
             >
               {props.linkText}
-            </a>
+            </Link>
           </button>{" "}
         </div>
       </div>

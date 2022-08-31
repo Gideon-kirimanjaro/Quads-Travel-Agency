@@ -3,7 +3,15 @@
 }
 .inner img {
   transition: all 1.3s ease;
+  cursor: pointer;
 }
 .inner:hover img {
   transform: scale(1.5);
+  cursor: pointer;
+}
+.inner Link {
+  cursor: pointer;
+}
+.imgLink {
+  cursor: pointer;
 }

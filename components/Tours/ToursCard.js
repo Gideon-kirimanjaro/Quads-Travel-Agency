@@ -1,13 +1,14 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import CardWrapper from "../Ui/Wrapper/CardWrapper";
 import Styles from "./Tours.module.css";
 const ToursCard = (props) => {
   return (
-    <div>
+    <div className="pb-2">
       <CardWrapper>
         <div
-          className="card text-center border border-warning shadow-0 "
+          className="card text-center border border-warning shadow-0  "
           style={{ backgroundColor: "white" }}
         >
           <div
@@ -19,17 +20,16 @@ const ToursCard = (props) => {
               data-mdb-ripple-color="light"
             >
               <div className={Styles.inner}>
-                <a href={props.href}>
-                  <img
+                <Link href={props.href}>
+                  <Image
                     alt="img"
+                    width="320px"
+                    height="250px"
                     src={props.src}
                     className="img-fluid hover-shadow"
                   />
-                </a>
+                </Link>
               </div>
-              <a href="#!">
-                <div className="mask" style={{ backgroundColor: "red" }}></div>
-              </a>
             </div>
           </div>
 
