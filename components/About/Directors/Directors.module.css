@@ -1,10 +1,39 @@
-.directorImage {
-  border-radius: 40%;
-  border: 20px solid green;
+.imageDiv {
+  border-radius: 100px 1px 1px 1px;
+  overflow: hidden;
 }
 .directorImage {
-  transition: all 2s ease;
+  transition: all 4s ease;
+  width: 100%;
+  height: auto;
 }
 .directorImage:hover {
   transform: scale(1.1);
 }
+#title {
+  font: 20px Georgia, serif;
+  color: rgb(236, 153, 0);
+  font-weight: bold;
+}
+.message q {
+  font: 1.4rem Georgia, serif;
+  quotes: "‘" "’" "“" "”";
+  display: flex;
+  justify-content: center;
+}
+#container {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+#about {
+  font: 1.2rem Georgia, serif;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+/* @media only screen and (min-width: 400px) {
+  .imageDiv {
+    width: 300px;
+    height: 250px;
+  }
+} */

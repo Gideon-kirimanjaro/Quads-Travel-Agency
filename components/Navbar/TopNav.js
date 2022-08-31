@@ -6,9 +6,10 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import Styles from "./Navbar.module.css";
 const TopNav = () => {
   const navLinks = [
+    { title: "Home", ref: "/#" },
     { title: "About", ref: "/about" },
     { title: "Tours", ref: "/tours" },
-    { title: "Services", ref: "/service" },
+    { title: "Offers", ref: "/offers" },
     { title: "Contact", ref: "/contact" },
   ];
   console.log("NAVLINKS", navLinks);

@@ -27,3 +27,7 @@ a {
   font-family: Montserrat;
   src: url("../public/fonts/montserrat/Montserrat-Regular.otf");
 }
+@font-face {
+  font-family: Opheus;
+  src: url("../public/fonts/Orpheus.ttf");
+}
