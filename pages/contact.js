@@ -1,9 +1,11 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Contact from "../components/Contact/Contact";
 
 const contact = () => {
   return (
     <div>
-      <h3>This is the contact page</h3>
+      <Contact />
     </div>
   );
 };

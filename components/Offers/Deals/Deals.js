@@ -1,15 +1,9 @@
 import React from "react";
+import offersData from "../../Data/OffersData";
 import OffersCard from "../../Ui/OffersCard/OffersCard";
 import CardWrapper from "../../Ui/Wrapper/CardWrapper";
 import Styles from "./Deals.module.css";
 const Deals = () => {
-  const offersData = [
-    { src: "/static/ad1.jpg", alt: "offers" },
-    { src: "/static/ad2.jpg", alt: "offers" },
-    { src: "/static/ad3.jpg", alt: "offers" },
-    { src: "/static/ad4.jpg", alt: "offers" },
-    { src: "/static/ad5.jpg", alt: "offers" },
-  ];
   return (
     <div className={Styles.container}>
       <CardWrapper>
@@ -30,12 +24,16 @@ const Deals = () => {
             <h3>Flash Sales & Discounted Rates</h3>
           </div>
         </div>
-        <div className="row">
+        <div className="row" id={Styles.container}>
           {offersData.map((item, index) => {
             return (
               <>
-                <div className="col-md-6 col-12 px-3">
-                  <OffersCard src={item.src} alt={item.alt} />
+                <div className="col-md-6 col-12 px-3" key={item.key}>
+                  <OffersCard
+                    src={item.src}
+                    alt={item.alt}
+                    title={item.title}
+                  />
                 </div>
               </>
             );

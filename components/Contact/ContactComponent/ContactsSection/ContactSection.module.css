@@ -1,0 +1,11 @@
+.contacts h2 {
+  color: rgb(169, 68, 57);
+  font: 1.5rem Opeus, serif;
+  padding-right: 3px;
+}
+.contacts h3 {
+  font: 1.3rem Opeus, serif;
+}
+.contacts {
+  display: flex;
+}

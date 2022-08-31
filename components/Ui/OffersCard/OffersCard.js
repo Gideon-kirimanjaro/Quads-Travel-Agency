@@ -8,7 +8,7 @@ const OffersCard = (props) => {
       <CardWrapper>
         <div className={Styles.offersContainer}>
           <div className={Styles.offerCard}>
-            <div>
+            <div className={Styles.imgDiv}>
               <Image
                 src={props.src}
                 className="img-fluid"
@@ -17,14 +17,19 @@ const OffersCard = (props) => {
                 alt={props.alt}
               />
             </div>
-
+            <h3 className="d-flex justify-content-center pb-1 text-white">
+              {props.title}
+            </h3>
             <div className="d-flex justify-content-center pb-1">
-              <div>
-                <h3 className="ps-3">DUBAI</h3>
-                <button type="button" className="btn btn-primary">
-                  Book Now
-                </button>
-              </div>
+              <button
+                type="button"
+                className="btn btn-primary"
+                onClick={() => {
+                  alert("booked");
+                }}
+              >
+                Book Now
+              </button>
             </div>
           </div>
         </div>
