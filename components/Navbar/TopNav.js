@@ -16,7 +16,7 @@ const TopNav = () => {
   console.log("NAVLINKS", navLinks);
   const dropDown = [
     { href: "/careers", title: "Careers" },
-    { href: "/about", title: "Terms" },
+    { href: "/faq", title: "Faq" },
   ];
   console.log("This is the style", Styles);
   return (
@@ -38,7 +38,7 @@ const TopNav = () => {
                 );
               })}
               <NavDropdown
-                title={<span className="text-dark mx-auto">More</span>}
+                title={<span className="text-dark ">More</span>}
                 id="basic-nav-dropdown"
                 className={Styles.links}
               >

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { StyledButton } from "../Ui/StyledButton";
 import CardWrapper from "../Ui/Wrapper/CardWrapper";
 import Styles from "./Tours.module.css";
 const ToursCard = (props) => {
@@ -36,6 +37,9 @@ const ToursCard = (props) => {
           <div className="card-body">
             <h3 className="card-title">{props.title}</h3>
             <h5 className="card-text">{props.body}</h5>
+            <StyledButton primary onClick={props.onClick}>
+              Book Tour
+            </StyledButton>
           </div>
         </div>
       </CardWrapper>

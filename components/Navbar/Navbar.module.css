@@ -1,15 +1,18 @@
 .links a {
-  font-family: Opeus;
   color: black;
+  font-family: Opeus;
   font-size: 23px;
+  font-weight: 500;
+  line-height: 1.5;
   text-decoration: none;
   margin-top: -5px;
   padding: 4px;
+  transition: color 0.3s ease-in-out;
 }
 .links a:hover {
-  color: rgb(184, 120, 2);
-  text-decoration: underline;
+  color: #fff;
+  box-shadow: inset 200px 0 0 0 #766f02;
 }
 .dropLinks a {
-  font-size: 16px;
+  font-size: 20px;
 }

@@ -51,7 +51,7 @@ const ActionImage = () => {
                     {" "}
                     <h3>{item.Caption}</h3>
                     <StyledButton primary>
-                      <Link href="/Tours">Learn More</Link>
+                      <Link href="/tours">Learn More</Link>
                     </StyledButton>
                   </div>
                 </SwiperSlide>

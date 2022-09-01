@@ -8,7 +8,8 @@ const Links = () => {
     { href: "/tours", title: "Tours" },
     { href: "/offers", title: "Offers" },
     { href: "/contact", title: "Contact" },
-    { href: "/contact", title: "Careers" },
+    { href: "/careers", title: "Careers" },
+    { href: "/faq", title: "Faq" },
   ];
   const details = [
     { key: 1, src: "/icons/phone.png", title: "+254721111111" },

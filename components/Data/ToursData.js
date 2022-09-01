@@ -1,6 +1,6 @@
 const toursData = [
   {
-    key: 1,
+    tourId: 1,
     src: "/static/pack.jpg",
     title: "Big Cats",
     body: "Get to travel Africa and experience the rich animal heritage",
@@ -8,7 +8,7 @@ const toursData = [
     href: "/tours",
   },
   {
-    key: 2,
+    tourId: 2,
     src: "/static/beach.jpg",
     title: "Beaches",
     body: "Explore new cultures and appreciate diversity",
@@ -16,7 +16,7 @@ const toursData = [
     href: "/tours",
   },
   {
-    key: 3,
+    tourId: 3,
     src: "/static/migration.jpg",
     title: "Wild Beasts",
     body: "We value our customers comfort creating a home away from home",
@@ -24,7 +24,7 @@ const toursData = [
     href: "/tours",
   },
   {
-    key: 4,
+    tourId: 4,
     src: "/static/mountain.jpg",
     title: "Mountain Climbing",
     body: "We are a value based company and we take pride in our services",

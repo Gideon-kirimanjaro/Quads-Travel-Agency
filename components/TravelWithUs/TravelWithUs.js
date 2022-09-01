@@ -5,6 +5,7 @@ import GridCard from "../Ui/GridCard/GridCard";
 import CardWrapper from "../Ui/Wrapper/CardWrapper";
 import gridCardData from "../Data/GridCardData";
 import Header from "../Ui/Header";
+import { StyledButton } from "../Ui/StyledButton";
 const TravelWithUs = () => {
   //#F7C805
 
@@ -16,7 +17,7 @@ const TravelWithUs = () => {
         href="/about"
         className="btn btn-warning text-light "
       />
-      <div>
+      <div className="pb-2">
         <GridCard>
           {" "}
           {gridCardData.map((item, index) => {

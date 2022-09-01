@@ -1,0 +1,21 @@
+.container {
+  font-family: Opeus;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+}
+.card {
+  border: 1px solid violet;
+  margin: 50px;
+}
+.position {
+  font-family: Opeus;
+  font-weight: bold;
+}
+.description {
+  font-family: Opeus;
+  font-weight: bolder;
+  color: rgb(35, 163, 0);
+  display: flex;
+  justify-content: center;
+}
