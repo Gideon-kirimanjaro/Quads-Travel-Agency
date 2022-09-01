@@ -7,7 +7,7 @@ const ContactSection = () => {
     { key: 3, title: "Whatsapp:", description: "+254000000" },
     { key: 4, title: "Email:", description: "toursQuads@gmail.com" },
   ];
-  console.log("STYLEES", Styles);
+
   return (
     <div className="d-flex justify-content-centre p-5">
       <div>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import CardWrapper from "../Ui/Wrapper/CardWrapper";
 import Styles from "./Adventure.module.css";
@@ -21,8 +22,7 @@ const AdventureSection = () => {
               className="btn btn-outline-warning text-white btn-rounded   "
               data-mdb-ripple-color="#000000"
             >
-              <a href="/tours"></a>
-              Learn More
+              <Link href="/tours">Learn More</Link>
             </button>
           </div>
           <div className="px-5 pt-md-3 pt-4 pb-2">

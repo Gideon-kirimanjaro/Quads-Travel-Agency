@@ -1,6 +1,14 @@
+import Image from "next/image";
 import { CarouselItem } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
+import { SwiperSlide } from "swiper/react";
+import CarouselSwiper from "../Ui/SwiperCarousel/CarouselSwiper/CarouselSwiper";
+import Styles from "./ActionImage.module.css";
+
 import CardWrapper from "../Ui/Wrapper/CardWrapper";
+import Header from "../Ui/Header";
+import { StyledButton } from "../Ui/StyledButton";
+import Link from "next/link";
 
 const ActionImage = () => {
   const carouselImg = [
@@ -13,54 +21,44 @@ const ActionImage = () => {
     {
       id: 2,
       src: "/static/giraffe.jpg",
-      Caption: "An experience like no other",
+      Caption: "Book a safari today",
       alt: "giraffe",
     },
     {
       id: 3,
       src: "/static/bufallo.jpg",
-      Caption: "refresh through nature",
+      Caption: "Refresh through nature",
       alt: "bufallo",
     },
   ];
 
   return (
     <CardWrapper>
-      <div className="px-lg-5 pt-lg-3 ">
-        <Carousel>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="/static/bufallo.jpg"
-              alt="First slide"
-            />
-            <Carousel.Caption>
-              <p>Come explore the wild</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="/static/giraffe.jpg"
-              alt="Second slide"
-            />
-
-            <Carousel.Caption>
-              <p>An experience like no other</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="/static/lion.jpg"
-              alt="Third slide"
-            />
-
-            <Carousel.Caption>
-              <p>refresh through nature</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
+      <div className={Styles.actionImage}>
+        <CarouselSwiper>
+          {carouselImg.map((item, index) => {
+            return (
+              <>
+                <SwiperSlide key={item.id}>
+                  {" "}
+                  <Image
+                    src={item.src}
+                    alt={item.alt}
+                    width="1500px"
+                    height="800px"
+                  />{" "}
+                  <div className={Styles.swiperTextContainer}>
+                    {" "}
+                    <h3>{item.Caption}</h3>
+                    <StyledButton primary>
+                      <Link href="/Tours">Learn More</Link>
+                    </StyledButton>
+                  </div>
+                </SwiperSlide>
+              </>
+            );
+          })}{" "}
+        </CarouselSwiper>
       </div>
     </CardWrapper>
   );

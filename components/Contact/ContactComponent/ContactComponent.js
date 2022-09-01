@@ -2,7 +2,6 @@ import React from "react";
 import ContactSection from "./ContactsSection/ContactSection";
 import EnquiryForm from "./EnquiryForm/EnquiryForm";
 import Styles from "./ContactComponent.module.css";
-import CardWrapper from "../../Ui/Wrapper/CardWrapper";
 const ContactComponent = () => {
   return (
     <div className={Styles.container}>

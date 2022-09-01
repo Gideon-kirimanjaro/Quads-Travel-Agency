@@ -14,7 +14,10 @@ const TopNav = () => {
     { title: "Contact", ref: "/contact" },
   ];
   console.log("NAVLINKS", navLinks);
-  const dropDown = ["Terms", "Careers"];
+  const dropDown = [
+    { href: "/careers", title: "Careers" },
+    { href: "/about", title: "Terms" },
+  ];
   console.log("This is the style", Styles);
   return (
     <div className="top-nav">
@@ -28,25 +31,23 @@ const TopNav = () => {
             <Nav className="ms-auto ">
               {navLinks.map((item, index) => {
                 return (
-                  <Nav.Link key={index} className={Styles.links}>
+                  <div key={index} className={Styles.links}>
+                    {" "}
                     <Link href={item.ref}>{item.title}</Link>
-                  </Nav.Link>
+                  </div>
                 );
               })}
               <NavDropdown
-                title="More"
+                title={<span className="text-dark mx-auto">More</span>}
                 id="basic-nav-dropdown"
                 className={Styles.links}
               >
                 {dropDown.map((item, index) => {
                   return (
-                    <NavDropdown.Item
-                      href={item}
-                      key={index}
-                      className={Styles.links}
-                    >
-                      {item}
-                    </NavDropdown.Item>
+                    <div key={index} className={Styles.dropLinks}>
+                      {" "}
+                      <Link href={item.href}>{item.title}</Link>
+                    </div>
                   );
                 })}
               </NavDropdown>

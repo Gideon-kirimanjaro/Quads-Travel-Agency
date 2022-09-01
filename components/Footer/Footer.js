@@ -3,6 +3,7 @@ import React from "react";
 import { NavItem } from "react-bootstrap";
 import Links from "./Links";
 import Styles from "./Footer.module.css";
+import Link from "next/link";
 const Footer = () => {
   const icons = [
     { src: "/icons/twitter.png", href: "#" },
@@ -16,9 +17,9 @@ const Footer = () => {
           <section className="mb-4">
             {icons.map((item, index) => {
               return (
-                <a key={index} href={item.href} role="button">
+                <Link key={index} href={item.href} role="button">
                   <Image height="50px" width="50px" src={item.src} alt="icon" />
-                </a>
+                </Link>
               );
             })}
           </section>

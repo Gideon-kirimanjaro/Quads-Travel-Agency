@@ -23,8 +23,8 @@ const ToursCard = (props) => {
                 <Link href={props.href}>
                   <Image
                     alt="img"
-                    width="320px"
-                    height="250px"
+                    width="500px"
+                    height="350px"
                     src={props.src}
                     className="img-fluid hover-shadow"
                   />

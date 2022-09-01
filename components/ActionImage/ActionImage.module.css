@@ -1,29 +1,19 @@
-.image {
-  width: 100%;
-  height: auto;
+.swiperTextContainer {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: white;
+  margin: 5px;
 }
-.imgText {
-  display: flex;
-  justify-content: center;
-
+.swiperTextContainer h3 {
+  font-size: 5vw;
+}
+.actionImage a {
+  text-decoration: none;
   color: white;
 }
-@media only screen and (min-width: 700px) {
-  .image {
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-bottom: 30px;
-  }
-  .imgText {
-    margin-top: -450px;
-    font-size: 45px;
-  }
-}
-@media only screen and (max-width: 700px) {
-  .imgText {
-    margin-top: -200px;
-    font-size: 30px;
-    position: fixed;
-    padding-left: 30px;
-  }
+.actionImage a:hover {
+  text-decoration: underline;
+  color: white;
 }

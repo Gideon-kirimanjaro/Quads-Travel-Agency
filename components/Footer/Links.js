@@ -1,18 +1,19 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import Styles from "./Links.module.css";
 const Links = () => {
   const links = [
     { href: "/about", title: "About" },
     { href: "/tours", title: "Tours" },
-    { href: "/service", title: "Service" },
+    { href: "/offers", title: "Offers" },
     { href: "/contact", title: "Contact" },
     { href: "/contact", title: "Careers" },
   ];
   const details = [
-    { src: "/icons/phone.png", title: "+254721111111" },
-    { src: "/icons/mail.png", title: "business.com" },
-    { src: "/icons/pin.png", title: "Nairobi" },
+    { key: 1, src: "/icons/phone.png", title: "+254721111111" },
+    { key: 2, src: "/icons/mail.png", title: "business.com" },
+    { key: 3, src: "/icons/pin.png", title: "Nairobi" },
   ];
   return (
     <div className={Styles.linksDiv}>
@@ -22,7 +23,7 @@ const Links = () => {
             {details.map((item, index) => {
               return (
                 <>
-                  <div className="d-flex " key={index}>
+                  <div className="d-flex " key={item.key}>
                     {" "}
                     <div className="px-3">
                       <Image
@@ -44,10 +45,8 @@ const Links = () => {
             <h5 className="text-uppercase text-white">Links</h5>
             {links.map((item, index) => {
               return (
-                <div key={index}>
-                  <a href={item.href} className={Styles.links}>
-                    {item.title}
-                  </a>
+                <div key={index} className={Styles.links}>
+                  <Link href={item.href}>{item.title}</Link>
                 </div>
               );
             })}
