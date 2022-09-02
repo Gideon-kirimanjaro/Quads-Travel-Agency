@@ -13,8 +13,8 @@ const Tours = (props) => {
     setLoadTours(toursData);
   }, []);
   const router = useRouter();
-  const onClickHandler = (tourId) => {
-    router.push("/" + tourId);
+  const onClickHandler = (id) => {
+    router.push(`/tours/${id}`);
   };
   return (
     <>
@@ -27,14 +27,14 @@ const Tours = (props) => {
       <GridCard>
         {loadTours.map((item, index) => {
           return (
-            <div className="col-lg-3 col-md-6 pt-2" key={item.tourId}>
+            <div className="col-lg-3 col-md-6 pt-2" key={item.id}>
               <ToursCard
                 src={item.src}
                 title={item.title}
                 body={item.body}
                 href={item.href}
                 onClick={() => {
-                  onClickHandler(item.tourId);
+                  onClickHandler(item.id);
                 }}
               ></ToursCard>
             </div>
