@@ -12,6 +12,8 @@ const TopNav = () => {
     { title: "Tours", ref: "/tours" },
     { title: "Offers", ref: "/offers" },
     { title: "Contact", ref: "/contact" },
+    { title: "Careers", ref: "/careers" },
+    { title: "Faq", ref: "/faq" },
   ];
   console.log("NAVLINKS", navLinks);
   const dropDown = [
@@ -37,20 +39,6 @@ const TopNav = () => {
                   </div>
                 );
               })}
-              <NavDropdown
-                title={<span className="text-dark ">More</span>}
-                id="basic-nav-dropdown"
-                className={Styles.links}
-              >
-                {dropDown.map((item, index) => {
-                  return (
-                    <div key={index} className={Styles.dropLinks}>
-                      {" "}
-                      <Link href={item.href}>{item.title}</Link>
-                    </div>
-                  );
-                })}
-              </NavDropdown>
             </Nav>
           </Navbar.Collapse>{" "}
         </Container>

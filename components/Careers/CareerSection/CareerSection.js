@@ -1,15 +1,14 @@
+import { useRouter } from "next/router";
 import React from "react";
-import { isAccordionItemSelected } from "react-bootstrap/esm/AccordionContext";
+import careersData from "../../Data/CareerData";
 import CustomDetailscard from "../../Ui/CustomDetailsCard/CustomDetailsCard";
 import Styles from "./CareerSection.module.css";
-//import customAccordion from "../../Ui/customAccordion/customAccordion";
 const CareerSection = () => {
-  const careersData = [
-    { id: 1, title: "Marketing", positions: 2, location: "Kisumu" },
-    { id: 2, title: "Driver", positions: 1, location: "Nairobi" },
-    { id: 3, title: "Cook", positions: 1, location: "Nairobi" },
-    { id: 4, title: "Secretary", positions: 1, location: "Kisumu" },
-  ];
+  const router = useRouter();
+  const handleClick = (id) => {
+    router.push(`/careers/${id}`);
+  };
+
   const noPostings = (
     <>
       <div className="card m-5 ">
@@ -36,6 +35,9 @@ const CareerSection = () => {
                   title={item.title}
                   positions={item.positions}
                   location={item.location}
+                  onClick={() => {
+                    handleClick(item.id);
+                  }}
                 />
               );
             })}

@@ -2,6 +2,9 @@ import Image from "next/image";
 import React from "react";
 import CardWrapper from "../Wrapper/CardWrapper";
 import Styles from "./Offers.module.css";
+import { StyledButton } from "../StyledButton";
+import Link from "next/link";
+import { StyledLink } from "../StyledLink";
 const OffersCard = (props) => {
   return (
     <div className={Styles.container}>
@@ -21,15 +24,11 @@ const OffersCard = (props) => {
               {props.title}
             </h3>
             <div className="d-flex justify-content-center pb-1">
-              <button
-                type="button"
-                className="btn btn-primary"
-                onClick={() => {
-                  alert("booked");
-                }}
-              >
-                Book Now
-              </button>
+              <StyledButton primary>
+                <Link className={Styles.offersBtn} href="/contact">
+                  Book Now
+                </Link>
+              </StyledButton>
             </div>
           </div>
         </div>

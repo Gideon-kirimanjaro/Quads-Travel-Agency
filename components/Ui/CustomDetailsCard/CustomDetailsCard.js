@@ -15,7 +15,9 @@ const CustomDetailscard = (props) => {
               <h5 className={Styles.description}>{props.location}</h5>
             </div>
             <div>
-              <StyledButton primary>Apply</StyledButton>
+              <StyledButton primary onClick={props.onClick}>
+                Apply
+              </StyledButton>
             </div>
           </div>
         </div>

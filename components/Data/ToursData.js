@@ -12,6 +12,23 @@ const toursData = [
       { id: 1, src: "/static/pack.jpg" },
       { id: 2, src: "/static/lion.jpg" },
     ],
+    activityDetails: [
+      {
+        key: 1,
+        header: "Day 1 Arrival",
+        body: "Our Mombasa package will start from Nairobi with a flight/SGR to Mombasa. On arrival,our driver will pick and transfer you to your Mombasa hotel for lunch and relaxation by the pool or beach the entire afternoon. Dinner and over night stay at the hotel.",
+      },
+      {
+        key: 2,
+        header: "Day 2 Traverse The Wild",
+        body: "Our Mombasa package will start from Nairobi with a flight/SGR to Mombasa. On arrival,our driver will pick and transfer you to your Mombasa hotel for lunch and relaxation by the pool or beach the entire afternoon. Dinner and over night stay at the hotel.",
+      },
+      {
+        key: 3,
+        header: "Day 3 Picknicks and Safari",
+        body: "Our Mombasa package will start from Nairobi with a flight/SGR to Mombasa. On arrival,our driver will pick and transfer you to your Mombasa hotel for lunch and relaxation by the pool or beach the entire afternoon. Dinner and over night stay at the hotel.",
+      },
+    ],
   },
   {
     id: 2,
@@ -25,7 +42,24 @@ const toursData = [
     tourImages: [
       { id: 1, src: "/static/pack.jpg" },
       { id: 2, src: "/static/lion.jpg" },
-      { id: 2, src: "/static/elephant.jpg" },
+      { id: 3, src: "/static/elephant.jpg" },
+    ],
+    activityDetails: [
+      {
+        key: 1,
+        header: "Day 1 Arrival",
+        body: "Our Mombasa package will start from Nairobi with a flight/SGR to Mombasa. On arrival,our driver will pick and transfer you to your Mombasa hotel for lunch and relaxation by the pool or beach the entire afternoon. Dinner and over night stay at the hotel.",
+      },
+      {
+        key: 2,
+        header: "Day 2 Traverse The Wild",
+        body: "Our Mombasa package will start from Nairobi with a flight/SGR to Mombasa. On arrival,our driver will pick and transfer you to your Mombasa hotel for lunch and relaxation by the pool or beach the entire afternoon. Dinner and over night stay at the hotel.",
+      },
+      {
+        key: 3,
+        header: "Day 3 Picknicks and Safari",
+        body: "Our Mombasa package will start from Nairobi with a flight/SGR to Mombasa. On arrival,our driver will pick and transfer you to your Mombasa hotel for lunch and relaxation by the pool or beach the entire afternoon. Dinner and over night stay at the hotel.",
+      },
     ],
   },
   {
@@ -41,6 +75,23 @@ const toursData = [
       { id: 1, src: "/static/pack.jpg" },
       { id: 2, src: "/static/lion.jpg" },
     ],
+    activityDetails: [
+      {
+        key: 1,
+        header: "Day 1 Arrival",
+        body: "Our Mombasa package will start from Nairobi with a flight/SGR to Mombasa. On arrival,our driver will pick and transfer you to your Mombasa hotel for lunch and relaxation by the pool or beach the entire afternoon. Dinner and over night stay at the hotel.",
+      },
+      {
+        key: 2,
+        header: "Day 2 Traverse The Wild",
+        body: "Our Mombasa package will start from Nairobi with a flight/SGR to Mombasa. On arrival,our driver will pick and transfer you to your Mombasa hotel for lunch and relaxation by the pool or beach the entire afternoon. Dinner and over night stay at the hotel.",
+      },
+      {
+        key: 3,
+        header: "Day 3 Picknicks and Safari",
+        body: "Our Mombasa package will start from Nairobi with a flight/SGR to Mombasa. On arrival,our driver will pick and transfer you to your Mombasa hotel for lunch and relaxation by the pool or beach the entire afternoon. Dinner and over night stay at the hotel.",
+      },
+    ],
   },
   {
     id: 4,
@@ -55,6 +106,23 @@ const toursData = [
       { id: 1, src: "/static/pack.jpg" },
       { id: 2, src: "/static/lion.jpg" },
     ],
+    activityDetails: [
+      {
+        key: 1,
+        header: "Day 1 Arrival",
+        body: "Our Mombasa package will start from Nairobi with a flight/SGR to Mombasa. On arrival,our driver will pick and transfer you to your Mombasa hotel for lunch and relaxation by the pool or beach the entire afternoon. Dinner and over night stay at the hotel.",
+      },
+      {
+        key: 2,
+        header: "Day 2 Traverse The Wild",
+        body: "Our Mombasa package will start from Nairobi with a flight/SGR to Mombasa. On arrival,our driver will pick and transfer you to your Mombasa hotel for lunch and relaxation by the pool or beach the entire afternoon. Dinner and over night stay at the hotel.",
+      },
+      {
+        key: 3,
+        header: "Day 3 Picknicks and Safari",
+        body: "Our Mombasa package will start from Nairobi with a flight/SGR to Mombasa. On arrival,our driver will pick and transfer you to your Mombasa hotel for lunch and relaxation by the pool or beach the entire afternoon. Dinner and over night stay at the hotel.",
+      },
+    ],
   },
   {
     id: 5,
@@ -68,6 +136,23 @@ const toursData = [
     tourImages: [
       { id: 1, src: "/static/pack.jpg" },
       { id: 2, src: "/static/lion.jpg" },
+    ],
+    activityDetails: [
+      {
+        key: 1,
+        header: "Day 1 Arrival",
+        body: "Our Mombasa package will start from Nairobi with a flight/SGR to Mombasa. On arrival,our driver will pick and transfer you to your Mombasa hotel for lunch and relaxation by the pool or beach the entire afternoon. Dinner and over night stay at the hotel.",
+      },
+      {
+        key: 2,
+        header: "Day 2 Traverse The Wild",
+        body: "Our Mombasa package will start from Nairobi with a flight/SGR to Mombasa. On arrival,our driver will pick and transfer you to your Mombasa hotel for lunch and relaxation by the pool or beach the entire afternoon. Dinner and over night stay at the hotel.",
+      },
+      {
+        key: 3,
+        header: "Day 3 Picknicks and Safari",
+        body: "Our Mombasa package will start from Nairobi with a flight/SGR to Mombasa. On arrival,our driver will pick and transfer you to your Mombasa hotel for lunch and relaxation by the pool or beach the entire afternoon. Dinner and over night stay at the hotel.",
+      },
     ],
   },
 ];

@@ -1,0 +1,22 @@
+.container {
+}
+
+.textDiv {
+  background: url("/static/lion.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 30vh;
+  position: relative;
+}
+.textDiv h4 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  font-size: 40px;
+  top: 50%;
+  width: 100%;
+  font-size: 5vw;
+}

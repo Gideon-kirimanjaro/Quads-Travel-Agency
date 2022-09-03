@@ -1,0 +1,16 @@
+#container a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+#descriptionDiv {
+  position: relative;
+}
+.imgDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.horizontalLine {
+  border: 3px rgb(157, 54, 88) solid;
+  border-style: dotted;
+}

@@ -1,9 +1,10 @@
 import React from "react";
-
+import ToursComponent from "../../components/ToursComponent/ToursComponent";
+import "bootstrap/dist/css/bootstrap.min.css";
 const tours = () => {
   return (
     <div>
-      <h3>This is the tours page</h3>
+      <ToursComponent />
     </div>
   );
 };
