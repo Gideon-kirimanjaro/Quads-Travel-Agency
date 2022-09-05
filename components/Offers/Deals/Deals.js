@@ -5,7 +5,7 @@ import CardWrapper from "../../Ui/Wrapper/CardWrapper";
 import Styles from "./Deals.module.css";
 const Deals = () => {
   return (
-    <div className={Styles.container}>
+    <div className={Styles.mainDiv}>
       <CardWrapper>
         <div className="d-flex justify-content-center">
           <div>

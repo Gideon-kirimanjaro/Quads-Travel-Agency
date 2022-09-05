@@ -18,7 +18,7 @@ const CareersPage = () => {
   }, [id, router.isReady]);
   console.log("LOG THE CAREER", loadCareers);
   return (
-    <div>
+    <div style={{ marginTop: "150px" }}>
       {loadCareers === [] ? (
         <p>Loading careers.........</p>
       ) : (

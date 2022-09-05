@@ -18,7 +18,13 @@ const Footer = () => {
             {icons.map((item, index) => {
               return (
                 <Link key={index} href={item.href} role="button">
-                  <Image height="50px" width="50px" src={item.src} alt="icon" />
+                  <Image
+                    height="50px"
+                    width="50px"
+                    src={item.src}
+                    alt="icon"
+                    id={Styles.iconLinks}
+                  />
                 </Link>
               );
             })}

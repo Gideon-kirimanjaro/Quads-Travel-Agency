@@ -8,3 +8,6 @@
   -o-background-size: cover;
   background-size: cover;
 }
+.mainDiv {
+  margin-top: 150px;
+}

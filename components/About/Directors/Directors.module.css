@@ -2,6 +2,9 @@
   border-radius: 100px 1px 1px 1px;
   overflow: hidden;
 }
+.mainDiv {
+  margin-top: 150px;
+}
 .directorImage {
   transition: all 4s ease;
   width: 100%;

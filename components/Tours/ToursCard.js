@@ -3,14 +3,19 @@ import Link from "next/link";
 import React from "react";
 import { StyledButton } from "../Ui/StyledButton";
 import CardWrapper from "../Ui/Wrapper/CardWrapper";
+import { motion, useAnimation } from "framer-motion";
 import Styles from "./Tours.module.css";
 const ToursCard = (props) => {
   return (
-    <div className="pb-2">
+    <div className="pb-2" id={Styles.container}>
       <CardWrapper>
-        <div
-          className="card text-center border border-warning shadow-0  "
+        <motion.div
+          className="card text-center  shadow-0  "
           style={{ backgroundColor: "white" }}
+          animate={{
+            boxShadow: "8px 8px 0 rgba(0, 0, 0, 0.2)",
+            borderColor: "orange",
+          }}
         >
           <div
             className="bg-image hover-overlay ripple"
@@ -20,28 +25,35 @@ const ToursCard = (props) => {
               className="bg-image hover-overlay ripple shadow-1-strong rounded"
               data-mdb-ripple-color="light"
             >
-              <div className={Styles.inner}>
+              <motion.div className={Styles.inner}>
                 <Link href={props.href}>
                   <Image
                     alt="img"
-                    width="500px"
-                    height="350px"
+                    width="800px"
+                    height="650px"
                     src={props.src}
                     className="img-fluid hover-shadow"
                   />
                 </Link>
-              </div>
+              </motion.div>
             </div>
           </div>
 
           <div className="card-body">
-            <h3 className="card-title">{props.title}</h3>
+            <motion.h3
+              className="card-title"
+              animate={{
+                color: "blue",
+              }}
+            >
+              {props.title}
+            </motion.h3>
             <h5 className="card-text">{props.body}</h5>
             <StyledButton primary onClick={props.onClick}>
               Book Tour
             </StyledButton>
           </div>
-        </div>
+        </motion.div>
       </CardWrapper>
     </div>
   );

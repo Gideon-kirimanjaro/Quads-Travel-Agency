@@ -23,7 +23,7 @@ const SingleTour = (props) => {
     return item.activityDetails;
   });
   return (
-    <div>
+    <div style={{ marginTop: "150px" }}>
       <div className="p-2 ">
         <CarouselSwiper>
           {" "}

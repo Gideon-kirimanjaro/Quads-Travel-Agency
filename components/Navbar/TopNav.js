@@ -5,7 +5,9 @@ import Navbar from "react-bootstrap/Navbar";
 import Link from "next/link";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Styles from "./Navbar.module.css";
+import { motion } from "framer-motion";
 const TopNav = () => {
+  console.log("FRAMER MOTION", motion);
   const navLinks = [
     { title: "Home", ref: "/#" },
     { title: "About", ref: "/about" },
@@ -15,35 +17,37 @@ const TopNav = () => {
     { title: "Careers", ref: "/careers" },
     { title: "Faq", ref: "/faq" },
   ];
-  console.log("NAVLINKS", navLinks);
   const dropDown = [
     { href: "/careers", title: "Careers" },
     { href: "/faq", title: "Faq" },
   ];
-  console.log("This is the style", Styles);
+
   return (
-    <div className="top-nav">
-      <Navbar bg="white" expand="lg">
-        <Container>
-          <Navbar.Brand href="#home">
-            <Image src="/static/logo.png" alt="logo" width={150} height={100} />
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto ">
-              {navLinks.map((item, index) => {
-                return (
-                  <div key={index} className={Styles.links}>
-                    {" "}
-                    <Link href={item.ref}>{item.title}</Link>
-                  </div>
-                );
-              })}
-            </Nav>
-          </Navbar.Collapse>{" "}
-        </Container>
-      </Navbar>
-    </div>
+    <Navbar className={Styles.bg} expand="lg">
+      <Container>
+        <Navbar.Brand href="/">
+          <Image src="/static/logo.png" alt="logo" width={150} height={100} />
+        </Navbar.Brand>
+        <Navbar.Toggle
+          initial={{ y: "50%", opactity: 0, scale: 0.5 }}
+          animate={{ y: 0, opactiy: 1, scale: 1 }}
+          aria-controls="basic-navbar-nav"
+          className={Styles.toggle}
+        />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="ms-auto ">
+            {navLinks.map((item, index) => {
+              return (
+                <div key={index} className={Styles.links}>
+                  {" "}
+                  <Link href={item.ref}>{item.title}</Link>
+                </div>
+              );
+            })}
+          </Nav>
+        </Navbar.Collapse>{" "}
+      </Container>
+    </Navbar>
   );
 };
 

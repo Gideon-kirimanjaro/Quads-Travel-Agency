@@ -18,29 +18,35 @@ const Tours = (props) => {
   };
   return (
     <>
-      <Header
-        heading="Tours & Destinations"
-        linkText="Tours"
-        href="/tours"
-        className="btn btn-warning text-light "
-      />
-      <GridCard>
-        {loadTours.map((item, index) => {
-          return (
-            <div className="col-lg-3 col-md-6 pt-2" key={item.id}>
-              <ToursCard
-                src={item.src}
-                title={item.title}
-                body={item.body}
-                href={item.href}
-                onClick={() => {
-                  onClickHandler(item.id);
-                }}
-              ></ToursCard>
-            </div>
-          );
-        })}
-      </GridCard>
+      <div
+        style={{
+          backgroundColor: "#F8F8F8",
+        }}
+      >
+        <Header
+          heading="Tours & Destinations"
+          linkText="Tours"
+          href="/tours"
+          className="btn btn-warning text-light "
+        />
+        <GridCard>
+          {loadTours.map((item, index) => {
+            return (
+              <div className="col-lg-4 col-md-6 pt-2" key={item.id}>
+                <ToursCard
+                  src={item.src}
+                  title={item.title}
+                  body={item.body}
+                  href={item.href}
+                  onClick={() => {
+                    onClickHandler(item.id);
+                  }}
+                ></ToursCard>
+              </div>
+            );
+          })}
+        </GridCard>
+      </div>
     </>
   );
 };

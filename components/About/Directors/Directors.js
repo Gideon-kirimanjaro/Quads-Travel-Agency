@@ -8,7 +8,7 @@ const Directors = () => {
   directors;
   return (
     <CardWrapper>
-      <div>
+      <div className={Styles.mainDiv}>
         <h3 className="mb-3 h3 d-flex justify-content-center">About us</h3>
         <p id={Styles.about} className="px-4">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sunt

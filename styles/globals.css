@@ -31,6 +31,18 @@ a {
   font-family: Opheus;
   src: url("../public/fonts/Orpheus.ttf");
 }
+@font-face {
+  font-family: nunito;
+  src: url("../public/fonts/nunito/Nunito-Medium.ttf");
+}
+@font-face {
+  font-family: poppins;
+  src: url("../public/fonts/poppins/Poppins-Medium.otf");
+}
+@font-face {
+  font-family: poppins-regular;
+  src: url("../public/fonts/poppins/Poppins-Regular.otf");
+}
 .swiper-button-prev {
   background-image: url("/static/left.png");
 }

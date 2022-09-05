@@ -21,7 +21,7 @@ const CareerSection = () => {
     </>
   );
   return (
-    <div>
+    <div className={Styles.mainDiv}>
       <div className={Styles.textDiv}>
         <h3>Careers at Quads Travel</h3>
       </div>

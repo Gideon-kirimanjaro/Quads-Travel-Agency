@@ -1,8 +1,8 @@
 import React from "react";
 import JobApplicationTab from "../../../Ui/JobApplicationTab/JobApplicationTab";
 
-const RoutedCareerSection = (props) => {
-  const loadCareers = props.loadCareers;
+const RoutedCareerSection = ({ loadCareers }) => {
+  //   const { loadCareers } = props;
   return (
     <div>
       {loadCareers.map((item, index) => {

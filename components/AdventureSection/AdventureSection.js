@@ -21,8 +21,9 @@ const AdventureSection = () => {
               type="button"
               className="btn btn-outline-warning text-white btn-rounded   "
               data-mdb-ripple-color="#000000"
+              id={Styles.buttonLink}
             >
-              <Link href="/tours">Learn More</Link>
+              <Link href="/offers">Learn More</Link>
             </button>
           </div>
           <div className="px-5 pt-md-3 pt-4 pb-2">

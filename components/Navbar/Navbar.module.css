@@ -1,18 +1,29 @@
+.container {
+}
+
 .links a {
   color: black;
-  font-family: Opeus;
-  font-size: 23px;
-  font-weight: 500;
-  line-height: 1.5;
+  font-family: nunito;
+  font-size: 20px;
+  padding: 5px;
   text-decoration: none;
-  margin-top: -5px;
-  padding: 4px;
   transition: color 0.3s ease-in-out;
 }
 .links a:hover {
   color: #fff;
-  box-shadow: inset 200px 0 0 0 #766f02;
+  box-shadow: inset 200px 0 0 0 #ffaf37;
 }
 .dropLinks a {
   font-size: 20px;
+}
+.toggle {
+}
+.bg {
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 1030;
+  margin-bottom: 20px;
 }

@@ -1,13 +1,16 @@
 .swiperTextContainer {
   position: absolute;
   top: 50%;
-  left: 40%;
+  left: 35%;
   transform: translate(-50%, -50%);
   color: white;
-  margin: 5px;
 }
 .swiperTextContainer h3 {
   font-size: 5vw;
+  font-family: poppins;
+}
+.actionImage {
+  margin-top: 140px;
 }
 .actionImage a {
   text-decoration: none;
