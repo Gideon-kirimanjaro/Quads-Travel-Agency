@@ -1,5 +1,6 @@
 .imageDiv {
-  border-radius: 100px 1px 1px 1px;
+  /* border-radius: 100px 1px 1px 1px; */
+  border-radius: 30%;
   overflow: hidden;
 }
 .mainDiv {
@@ -19,7 +20,7 @@
   font-weight: bold;
 }
 .message q {
-  font: 1.4rem Georgia, serif;
+  font: 1.2rem poppins-regular;
   quotes: "‘" "’" "“" "”";
   display: flex;
   justify-content: center;
@@ -34,9 +35,3 @@
   padding-left: 40px;
   padding-right: 40px;
 }
-/* @media only screen and (min-width: 400px) {
-  .imageDiv {
-    width: 300px;
-    height: 250px;
-  }
-} */

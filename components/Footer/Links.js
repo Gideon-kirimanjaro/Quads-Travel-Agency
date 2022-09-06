@@ -118,12 +118,7 @@ const Links = () => {
         </div>
         <div className="col-lg-3 col-6 mb-4 mb-md-0 ps-5">
           <div>
-            <Image
-              src="/static/logo.png"
-              height="128px"
-              width="128px"
-              alt="logo"
-            />
+            <Image src="/favicon.png" height="200px" width="200px" alt="logo" />
           </div>
         </div>
       </div>

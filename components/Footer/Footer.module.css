@@ -11,3 +11,9 @@
   cursor: pointer;
   padding: 25px;
 }
+.linkedInLink a {
+  text-decoration: none;
+  color: yellow;
+  font-weight: 400;
+  font-size: 18px;
+}

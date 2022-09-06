@@ -9,10 +9,9 @@ import AccordionCard from "../Ui/AccordionCard/AccordionCard";
 import ContactSection from "../Contact/ContactComponent/ContactsSection/ContactSection";
 import EnquiryForm from "../Contact/ContactComponent/EnquiryForm/EnquiryForm";
 import AdventureSection from "../AdventureSection/AdventureSection";
+import Styles from "./SingleTour.module.css";
 const SingleTour = (props) => {
   const tour = props.tour;
-
-  console.log("TOURS DATA", tour);
   const destinations = tour.map((item) => {
     return item.tourImages;
   });
@@ -23,7 +22,7 @@ const SingleTour = (props) => {
     return item.activityDetails;
   });
   return (
-    <div style={{ marginTop: "150px" }}>
+    <div className={Styles.container}>
       <div className="p-2 ">
         <CarouselSwiper>
           {" "}
@@ -45,17 +44,21 @@ const SingleTour = (props) => {
             })}
         </CarouselSwiper>
         <TourDetails tour={props.tour} />
-        <h3 className="d-flex justify-content-center">Tour Details</h3>
-        {activityData[0] &&
-          activityData[0].map((item) => {
-            return (
-              <AccordionCard
-                key={item.key}
-                header={item.header}
-                body={item.body}
-              />
-            );
-          })}
+        <div className={Styles.tourDetails}>
+          <h3 className="d-flex justify-content-center text-warning">
+            Tour Details
+          </h3>
+          {activityData[0] &&
+            activityData[0].map((item) => {
+              return (
+                <AccordionCard
+                  key={item.key}
+                  header={item.header}
+                  body={item.body}
+                />
+              );
+            })}
+        </div>
         <h5 className="d-flex justify-content-center pt-3">
           Check out our &nbsp;{" "}
           <Link href="/faq"> Frequently Asked Questions</Link>{" "}

@@ -45,11 +45,21 @@ const Footer = () => {
         </div>
 
         <div className="text-center p-3 text-white">
-          © 2022 Copyright:
-          <a className="text-white" href="">
-            Quads Travel
-          </a>
-          .All rights reserved
+          © 2022 Copyright:&nbsp;
+          <div className={Styles.linkedInLink}>
+            <Link className="text-white" href="/">
+              Quads Travel
+            </Link>
+          </div>
+          All rights reserved. made with 💙 by &nbsp;
+          <div className={Styles.linkedInLink}>
+            <Link
+              target="_blank"
+              href="https://www.linkedin.com/in/gideonkirimanjaro/?originalSubdomain=ke"
+            >
+              Kai Creatives
+            </Link>
+          </div>
         </div>
       </footer>
     </div>

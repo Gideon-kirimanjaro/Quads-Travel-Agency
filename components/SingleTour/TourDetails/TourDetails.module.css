@@ -1,3 +1,9 @@
-#card {
-  background-color: rgb(255, 225, 255);
+.card {
+  background-color: whitesmoke;
+}
+#mainDiv {
+  font-family: 🇲ontserrat;
+  background-color: rgb(255, 255, 255);
+}
+.body {
 }

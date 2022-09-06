@@ -25,7 +25,7 @@ const ToursCard = (props) => {
               className="bg-image hover-overlay ripple shadow-1-strong rounded"
               data-mdb-ripple-color="light"
             >
-              <motion.div className={Styles.inner}>
+              <motion.div className={Styles.inner} onClick={props.onClick}>
                 <Link href={props.href}>
                   <Image
                     alt="img"

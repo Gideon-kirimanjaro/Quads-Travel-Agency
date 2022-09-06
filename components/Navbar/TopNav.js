@@ -26,7 +26,7 @@ const TopNav = () => {
     <Navbar className={Styles.bg} expand="lg">
       <Container>
         <Navbar.Brand href="/">
-          <Image src="/static/logo.png" alt="logo" width={150} height={100} />
+          <Image src="/favicon.png" alt="logo" width={110} height={110} />
         </Navbar.Brand>
         <Navbar.Toggle
           initial={{ y: "50%", opactity: 0, scale: 0.5 }}
