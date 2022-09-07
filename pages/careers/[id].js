@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import { useState } from "react";
 import RoutedCareer from "../../components/Careers/RoutedCareer/RoutedCareer";
 import careersData from "../../components/Data/CareerData";
-
+import "bootstrap/dist/css/bootstrap.min.css";
 const CareersPage = () => {
   const router = useRouter();
   const [loadCareers, setLoadCareers] = useState([]);
