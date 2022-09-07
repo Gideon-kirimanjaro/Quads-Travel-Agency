@@ -26,11 +26,11 @@ const TopNav = () => {
     <Navbar className={Styles.bg} expand="lg">
       <Container>
         <Navbar.Brand href="/">
-          <Image src="/favicon.png" alt="logo" width={110} height={110} />
+          <Image src="/favicon.png" alt="logo" width={100} height={100} />
         </Navbar.Brand>
         <Navbar.Toggle
-          initial={{ y: "50%", opactity: 0, scale: 0.5 }}
-          animate={{ y: 0, opactiy: 1, scale: 1 }}
+          // initial={{ y: "50%", opactity: 0, scale: 0.5 }}
+          // animate={{ y: 0, opactiy: 1, scale: 1 }}
           aria-controls="basic-navbar-nav"
           className={Styles.toggle}
         />

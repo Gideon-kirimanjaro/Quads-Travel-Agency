@@ -1,9 +1,9 @@
 import Image from "next/image";
 import React from "react";
-
+import Styles from "./ContentCard.module.css";
 const ContentCard = (props) => {
   return (
-    <div>
+    <div className={Styles.container}>
       <div className="card">
         <div className="card-body">
           {" "}
@@ -18,7 +18,7 @@ const ContentCard = (props) => {
                 />
               </div>
               <h3 className="d-flex justify-content-center">{props.header}</h3>{" "}
-              <h5>{props.body}</h5>
+              <p className="d-flex justify-content-center">{props.body}</p>
             </div>
           </div>
         </div>

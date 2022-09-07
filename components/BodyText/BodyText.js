@@ -6,18 +6,10 @@ import MotionEffect from "../Ui/MotionEffect/MotionEffect";
 const BodyText = () => {
   return (
     <MotionEffect>
-      <div
-        className={Styles.container}
-        style={{
-          backgroundColor: "#FFFFF9",
-          paddingTop: "8px",
-          paddingBottom: "8px",
-          borderRadius: "5%",
-        }}
-      >
+      <div className={Styles.container} style={{}}>
         <CardWrapper>
           <div className="px-md-5">
-            <div className="ps-md-5 pe-md-5">
+            <div className="ps-md-2 pe-md-2">
               <p className="p-md-4" id={Styles.bodyText}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
                 sunt vel, voluptas eaque ratione nam provident repellendus saepe

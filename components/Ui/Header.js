@@ -1,15 +1,19 @@
 import Link from "next/link";
 import React from "react";
 import Styles from "./Header.module.css";
+import { StyledButton } from "./StyledButton";
 const Header = (props) => {
   return (
     <div>
       <div className="">
-        <h3 className="d-flex justify-content-center">{props.heading}</h3>{" "}
-        <div className="d-flex justify-content-center">
-          <button type="button" className={props.className} id={Styles.btnLink}>
+        <h3 className="d-flex justify-content-center" id={Styles.header}>
+          {props.heading}
+        </h3>{" "}
+        <div className="d-flex justify-content-center" id={Styles.btnDiv}>
+          <StyledButton primary>
+            {" "}
             <Link href={props.href}>{props.linkText}</Link>
-          </button>{" "}
+          </StyledButton>
         </div>
       </div>
     </div>

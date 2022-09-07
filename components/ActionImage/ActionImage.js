@@ -26,7 +26,7 @@ const ActionImage = () => {
     },
     {
       id: 3,
-      src: "/static/bufallo.jpg",
+      src: "/static/forest.jpg",
       Caption: "Refresh through nature",
       alt: "bufallo",
     },

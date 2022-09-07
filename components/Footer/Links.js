@@ -16,13 +16,13 @@ const Links = () => {
       key: 1,
       src: "/icons/phone.png",
       href: "tel:+254-707-000-574",
-      title: "+254707000574",
+      title: "+25470000000",
     },
     {
       key: 2,
       src: "/icons/mail.png",
       href: "mailto:gideonkirimanjaro@gmail.com",
-      title: "business.com",
+      title: "@quadstravelagency.com",
     },
     // },
     // {
@@ -48,15 +48,15 @@ const Links = () => {
   }
   return (
     <div className={Styles.linksDiv}>
-      <div className="row">
-        <div className="col-lg- col-6 mb-4 mb-md-0 px-3">
+      <div className="d-md-flex justify-content-center mx-md-5 px-md-5 ">
+        <div className="col-lg- col-6 mb-4 mb-md-0 ">
           <div className={Styles.info}>
             {details.map((item, index) => {
               return (
                 <>
                   <div className="d-flex " key={item.key}>
                     {" "}
-                    <div className="px-3">
+                    <div className="">
                       <Link href="/">
                         <Image
                           alt="icon"
@@ -66,21 +66,21 @@ const Links = () => {
                         />
                       </Link>
                     </div>
-                    <h5>
+                    <p>
                       <a
                         style={{ textDecoration: "none", color: "yellow" }}
                         href={item.href}
                       >
                         {item.title}
                       </a>
-                    </h5>
+                    </p>
                   </div>
                 </>
               );
             })}
             <div className="d-flex ">
               {" "}
-              <div className="px-3">
+              <div className="">
                 <Link href="/">
                   <Image
                     alt="icon"
@@ -90,7 +90,7 @@ const Links = () => {
                   />
                 </Link>
               </div>
-              <h5>
+              <p>
                 <a
                   style={{
                     textDecoration: "none",
@@ -98,15 +98,18 @@ const Links = () => {
                     cursor: "pointer",
                   }}
                 >
-                  Kilimani,Nairobi
+                  Kilimani,Nairobi,Kenya
                 </a>
-              </h5>
+              </p>
             </div>
           </div>
         </div>
-        <div className="col-lg-3 col-6 mb-4 mb-md-0 ps-5">
-          <div className="ps-5">
-            <h5 className="text-uppercase text-white">Links</h5>
+        <div className="col-lg-6 col-6 mb-4 mb-md-0 ps-5">
+          <div className="">
+            <u>
+              {" "}
+              <h5 className="text-uppercase text-white">Links</h5>
+            </u>
             {links.map((item, index) => {
               return (
                 <div key={index} className={Styles.links}>
@@ -118,7 +121,14 @@ const Links = () => {
         </div>
         <div className="col-lg-3 col-6 mb-4 mb-md-0 ps-5">
           <div>
-            <Image src="/favicon.png" height="200px" width="200px" alt="logo" />
+            <Link href="/">
+              <Image
+                src="/favicon.png"
+                height="200px"
+                width="200px"
+                alt="logo"
+              />
+            </Link>
           </div>
         </div>
       </div>

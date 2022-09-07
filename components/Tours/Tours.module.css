@@ -20,3 +20,6 @@
 .imgLink {
   cursor: pointer;
 }
+#container {
+  font-family: nunito;
+}

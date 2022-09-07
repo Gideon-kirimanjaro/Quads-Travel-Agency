@@ -8,6 +8,7 @@ import Tours from "../components/Tours/Tours";
 import AdventureSection from "../components/AdventureSection/AdventureSection";
 import Footer from "../components/Footer/Footer";
 import Head from "next/head";
+
 export default function Home() {
   return (
     <div className={styles.container}>

@@ -19,6 +19,7 @@ const Footer = () => {
               return (
                 <Link key={index} href={item.href} role="button">
                   <Image
+                    className="p-1"
                     height="50px"
                     width="50px"
                     src={item.src}
@@ -31,7 +32,7 @@ const Footer = () => {
           </section>
 
           <section className="mb-4">
-            <p className="text-white">
+            <p className="text-light">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
               distinctio earum repellat quaerat voluptatibus placeat nam,
               commodi optio pariatur est quia magnam eum harum corrupti dicta,

@@ -44,10 +44,10 @@ a {
   src: url("../public/fonts/poppins/Poppins-Regular.otf");
 }
 .swiper-button-prev {
-  background-image: url("/static/left.png");
+  background-image: url("/static/leftArrow.png");
 }
 .swiper-button-next {
-  background-image: url("/static/right.png");
+  background-image: url("/static/rightArrow.png");
 }
 .swiper-button-next,
 .swiper-button-prev {
@@ -60,7 +60,7 @@ a {
   display: none;
 }
 .swiper-pagination-bullet-active {
-  background-color: rgb(230, 115, 0) !important;
+  background-color: #00475a !important;
   width: 2rem;
   height: 2rem;
 }

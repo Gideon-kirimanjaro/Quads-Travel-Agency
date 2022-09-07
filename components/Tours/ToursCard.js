@@ -14,7 +14,7 @@ const ToursCard = (props) => {
           style={{ backgroundColor: "white" }}
           animate={{
             boxShadow: "8px 8px 0 rgba(0, 0, 0, 0.2)",
-            borderColor: "orange",
+            borderColor: "#00475a",
           }}
         >
           <div
@@ -43,7 +43,7 @@ const ToursCard = (props) => {
             <motion.h3
               className="card-title"
               animate={{
-                color: "blue",
+                color: "#00475a",
               }}
             >
               {props.title}
