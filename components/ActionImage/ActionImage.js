@@ -46,6 +46,7 @@ const ActionImage = () => {
                     alt={item.alt}
                     width="1500px"
                     height="800px"
+                    // priority={true}
                   />{" "}
                   <div className={Styles.swiperTextContainer}>
                     {" "}
