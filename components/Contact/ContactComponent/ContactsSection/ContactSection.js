@@ -5,11 +5,11 @@ const ContactSection = () => {
     { key: 1, title: "Office Locations:", description: "Nairobi" },
     { key: 2, title: "Office Telephone:", description: "+254000000" },
     { key: 3, title: "Whatsapp:", description: "+254000000" },
-    { key: 4, title: "Email:", description: "toursQuads@gmail.com" },
+    { key: 4, title: "Email:", description: "info@quadstouragency.com" },
   ];
 
   return (
-    <div className="d-flex justify-content-centre p-5">
+    <div className="d-flex justify-content-centre ps-4">
       <div>
         <h3>Quads Travel Agency</h3>
         {contactDetails.map((item, index) => {

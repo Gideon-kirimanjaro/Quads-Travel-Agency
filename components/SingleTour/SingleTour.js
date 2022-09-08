@@ -23,7 +23,7 @@ const SingleTour = (props) => {
   });
   return (
     <div className={Styles.container}>
-      <div className="p-2 ">
+      <div className=" ">
         <CarouselSwiper>
           {" "}
           {destinationImage[0] &&

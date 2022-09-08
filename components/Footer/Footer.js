@@ -6,9 +6,9 @@ import Styles from "./Footer.module.css";
 import Link from "next/link";
 const Footer = () => {
   const icons = [
-    { src: "/icons/twitter.png", href: "#" },
-    { src: "/icons/fb.png", href: "#" },
-    { src: "/icons/ig.png", href: "#" },
+    { src: "/icons/twitter.PNG", href: "#" },
+    { src: "/icons/fb.PNG", href: "#" },
+    { src: "/icons/ig.PNG", href: "#" },
   ];
   return (
     <div className={Styles.footerDiv}>

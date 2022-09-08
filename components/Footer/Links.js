@@ -21,8 +21,8 @@ const Links = () => {
     {
       key: 2,
       src: "/icons/mail.png",
-      href: "mailto:gideonkirimanjaro@gmail.com",
-      title: "@quadstravelagency.com",
+      href: "mailto:info@quadstravelagency.com",
+      title: "info@quadstravelagency.com",
     },
     // },
     // {
