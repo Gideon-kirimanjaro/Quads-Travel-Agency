@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Next App</title>
+        <title>Quads Travel Agency</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
       <TopNav />

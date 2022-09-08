@@ -13,7 +13,10 @@ const CareerSection = () => {
     <>
       <div className="card m-5 ">
         <div className="card-body">
-          <h5 className="card-text d-flex justify-content-center">
+          <h5
+            className="card-text d-flex justify-content-center"
+            style={{ color: "#00475a" }}
+          >
             Sorry! No positions at the moment
           </h5>
         </div>

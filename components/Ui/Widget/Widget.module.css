@@ -2,6 +2,9 @@
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
+#container {
+  font-family: nunito;
+}
 #descriptionDiv {
   position: relative;
 }
@@ -13,4 +16,7 @@
 .horizontalLine {
   border: 3px rgb(157, 54, 88) solid;
   border-style: dotted;
+}
+#title {
+  color: #00475a;
 }

@@ -9,7 +9,7 @@ const ContactSection = () => {
   ];
 
   return (
-    <div className="d-flex justify-content-centre ps-4">
+    <div className="d-flex justify-content-centre p-4 mt-md-4">
       <div>
         <h3>Quads Travel Agency</h3>
         {contactDetails.map((item, index) => {

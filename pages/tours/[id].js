@@ -7,32 +7,7 @@ import Footer from "../../components/Footer/Footer";
 import { useRouter } from "next/router";
 import toursData from "../../components/Data/ToursData";
 import SingleTour from "../../components/SingleTour/SingleTour";
-
-// const API = "http://localhost:3000/api/toursApi/";
-// export async function getStaticPaths() {
-//   const res = await fetch(API);
-//   const data = await res.json();
-//   const paths = data.map((item) => {
-//     return {
-//       params: { id: item.id.toString() },
-//     };
-//   });
-//   return {
-//     paths,
-//     fallback: false,
-//   };
-// }
-
-// export async function getStaticProps(context) {
-//   const id = context.params.id;
-//   const res = await fetch(`http://localhost:3000/api/toursApi/`);
-//   const data = await res.json();
-//   const tour = data;
-
-//   return {
-//     props: { tour }, // will be passed to the page component as props
-//   };
-// }
+import Head from "next/head";
 
 const TravelPage = () => {
   const router = useRouter();
@@ -49,9 +24,13 @@ const TravelPage = () => {
 
   return (
     <div>
+      {" "}
+      <Head>
+        <title>Quads Travel Agency</title>
+        <link rel="icon" href="/favicon.png" />
+      </Head>
       <TopNav />
       {tour === [] ? <p>LOADING.....</p> : <SingleTour tour={tour} />}
-
       <Footer />
     </div>
   );

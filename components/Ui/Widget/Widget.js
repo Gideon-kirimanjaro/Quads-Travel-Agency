@@ -24,7 +24,9 @@ const Widget = (props) => {
             {" "}
             <div className="d-flex justify-content-center pt-md-5 pt-sm-2">
               <div>
-                <h1 className="d-flex justify-content-center">{props.title}</h1>
+                <h1 className="d-flex justify-content-center" id={Styles.title}>
+                  {props.title}
+                </h1>
                 <h5>{props.description}</h5>
                 <div className="d-flex justify-content-center">
                   {" "}

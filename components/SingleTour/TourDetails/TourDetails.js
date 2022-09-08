@@ -14,7 +14,7 @@ const TourDetails = (props) => {
             <motion.div
               animate={{
                 boxShadow: "8px 8px 0 rgba(0, 0, 0, 0.2)",
-                borderColor: "violet",
+                borderColor: "#00475a",
               }}
               className="card p-md-2"
               id={Styles.card}
