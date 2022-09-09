@@ -4,6 +4,7 @@ import { NavItem } from "react-bootstrap";
 import Links from "./Links";
 import Styles from "./Footer.module.css";
 import Link from "next/link";
+import bg from "../../public/static/elephant.jpg";
 const Footer = () => {
   const icons = [
     { key: 1, src: "/icons/twitter.PNG", href: "/about" },
@@ -11,7 +12,17 @@ const Footer = () => {
     { key: 3, src: "/icons/ig.PNG", href: "/contact" },
   ];
   return (
-    <div className={Styles.footerDiv}>
+    <div
+      style={{
+        backgroundImage: `url(${bg.src})`,
+        backgroundPosition: "bottom",
+        webkitBackgroundSize: "cover",
+        mozBackgroundSize: "cover",
+        oBackgroundSize: "cover",
+        backgroundSize: "cover",
+        marginTop: "-9px",
+      }}
+    >
       <footer>
         <div className="p-4">
           <section className="mb-4">

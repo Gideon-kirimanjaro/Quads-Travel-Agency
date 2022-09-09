@@ -3,6 +3,7 @@ import offersData from "../../Data/OffersData";
 import OffersCard from "../../Ui/OffersCard/OffersCard";
 import CardWrapper from "../../Ui/Wrapper/CardWrapper";
 import Styles from "./Deals.module.css";
+
 const Deals = () => {
   return (
     <div className={Styles.mainDiv}>

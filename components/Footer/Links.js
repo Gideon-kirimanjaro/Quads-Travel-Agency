@@ -3,7 +3,11 @@ import FooterContainer from "../Ui/FooterContainer/FooterContainer";
 
 const Links = () => {
   return (
-    <div>
+    <div
+      style={{
+        marginBottom: "-20px",
+      }}
+    >
       <FooterContainer />
     </div>
   );
