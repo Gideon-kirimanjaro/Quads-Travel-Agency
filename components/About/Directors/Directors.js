@@ -1,11 +1,9 @@
 import Image from "next/image";
 import React from "react";
-import styled from "styled-components";
 import directors from "../../Data/DirectorsData";
 import CardWrapper from "../../Ui/Wrapper/CardWrapper";
 import Styles from "./Directors.module.css";
 const Directors = () => {
-  directors;
   return (
     <CardWrapper>
       <div className={Styles.mainDiv}>

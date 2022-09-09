@@ -5,22 +5,19 @@ const ContactSection = () => {
     { key: 1, title: "Office Locations:", description: "Nairobi" },
     { key: 2, title: "Office Telephone:", description: "+254000000" },
     { key: 3, title: "Whatsapp:", description: "+254000000" },
-    { key: 4, title: "Email:", description: "info@quadstouragency.com" },
+    { key: 4, title: "Email:", description: "info@quadstravelagency.com" },
   ];
 
   return (
-    <div className="d-flex justify-content-centre p-4 mt-md-4">
+    <div className="d-flex justify-content-centre p-1 mt-md-4">
       <div>
         <h3>Quads Travel Agency</h3>
         {contactDetails.map((item, index) => {
           return (
-            <>
-              {" "}
-              <div className={Styles.contacts}>
-                <h2>{item.title}</h2>
-                <h3>{item.description}</h3>
-              </div>
-            </>
+            <div className={Styles.contacts} key={item.key}>
+              <h2>{item.title}</h2>
+              <h5>{item.description}</h5>
+            </div>
           );
         })}
       </div>

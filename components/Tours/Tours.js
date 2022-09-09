@@ -3,8 +3,6 @@ import { useRouter } from "next/router";
 import toursData from "../Data/ToursData";
 import GridCard from "../Ui/GridCard/GridCard";
 import Header from "../Ui/Header";
-import { StyledButton } from "../Ui/StyledButton";
-import CardWrapper from "../Ui/Wrapper/CardWrapper";
 import ToursCard from "./ToursCard";
 
 const Tours = (props) => {

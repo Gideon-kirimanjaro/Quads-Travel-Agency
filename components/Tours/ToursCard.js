@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { StyledButton } from "../Ui/StyledButton";
 import CardWrapper from "../Ui/Wrapper/CardWrapper";
-import { motion, useAnimation } from "framer-motion";
+import { motion } from "framer-motion";
 import Styles from "./Tours.module.css";
 const ToursCard = (props) => {
   return (
@@ -27,13 +27,15 @@ const ToursCard = (props) => {
             >
               <motion.div className={Styles.inner} onClick={props.onClick}>
                 <Link href={props.href}>
-                  <Image
-                    alt="img"
-                    width="800px"
-                    height="650px"
-                    src={props.src}
-                    className="img-fluid hover-shadow"
-                  />
+                  <a>
+                    <Image
+                      alt="img"
+                      width="800px"
+                      height="650px"
+                      src={props.src}
+                      className="img-fluid hover-shadow"
+                    />
+                  </a>
                 </Link>
               </motion.div>
             </div>

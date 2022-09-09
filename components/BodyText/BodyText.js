@@ -6,7 +6,7 @@ import MotionEffect from "../Ui/MotionEffect/MotionEffect";
 const BodyText = () => {
   return (
     <MotionEffect>
-      <div className={Styles.container} style={{}}>
+      <div className={Styles.container}>
         <CardWrapper>
           <div className="px-md-5">
             <div className="ps-md-2 pe-md-2">

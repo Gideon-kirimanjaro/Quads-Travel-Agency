@@ -1,12 +1,8 @@
 import Image from "next/image";
-import { CarouselItem } from "react-bootstrap";
-import Carousel from "react-bootstrap/Carousel";
 import { SwiperSlide } from "swiper/react";
 import CarouselSwiper from "../Ui/SwiperCarousel/CarouselSwiper/CarouselSwiper";
 import Styles from "./ActionImage.module.css";
-
 import CardWrapper from "../Ui/Wrapper/CardWrapper";
-import Header from "../Ui/Header";
 import { StyledButton } from "../Ui/StyledButton";
 import Link from "next/link";
 
@@ -38,25 +34,23 @@ const ActionImage = () => {
         <CarouselSwiper>
           {carouselImg.map((item, index) => {
             return (
-              <>
-                <SwiperSlide key={item.id}>
+              <SwiperSlide key={item.id}>
+                {" "}
+                <Image
+                  src={item.src}
+                  alt={item.alt}
+                  width="1500px"
+                  height="800px"
+                  // priority={true}
+                />{" "}
+                <div className={Styles.swiperTextContainer}>
                   {" "}
-                  <Image
-                    src={item.src}
-                    alt={item.alt}
-                    width="1500px"
-                    height="800px"
-                    // priority={true}
-                  />{" "}
-                  <div className={Styles.swiperTextContainer}>
-                    {" "}
-                    <h3>{item.Caption}</h3>
-                    <StyledButton primary>
-                      <Link href="/tours">Learn More</Link>
-                    </StyledButton>
-                  </div>
-                </SwiperSlide>
-              </>
+                  <h3>{item.Caption}</h3>
+                  <StyledButton primary>
+                    <Link href="/tours">Learn More</Link>
+                  </StyledButton>
+                </div>
+              </SwiperSlide>
             );
           })}{" "}
         </CarouselSwiper>

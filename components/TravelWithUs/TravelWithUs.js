@@ -1,15 +1,11 @@
 import React from "react";
-import { Button } from "react-bootstrap";
 import ContentCard from "../Ui/GridCard/ContentCard";
 import GridCard from "../Ui/GridCard/GridCard";
 import CardWrapper from "../Ui/Wrapper/CardWrapper";
 import gridCardData from "../Data/GridCardData";
 import Header from "../Ui/Header";
-import { StyledButton } from "../Ui/StyledButton";
 import ContainerEffect from "../Ui/ContainerEffect/ContainerEffect";
 const TravelWithUs = () => {
-  //#F7C805
-
   return (
     <ContainerEffect>
       <CardWrapper>

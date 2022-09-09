@@ -27,15 +27,9 @@ const Deals = () => {
         <div className="row" id={Styles.container}>
           {offersData.map((item, index) => {
             return (
-              <>
-                <div className="col-md-6 col-12 px-3" key={item.key}>
-                  <OffersCard
-                    src={item.src}
-                    alt={item.alt}
-                    title={item.title}
-                  />
-                </div>
-              </>
+              <div className="col-md-6 col-12 px-3" key={item.key}>
+                <OffersCard src={item.src} alt={item.alt} title={item.title} />
+              </div>
             );
           })}
         </div>

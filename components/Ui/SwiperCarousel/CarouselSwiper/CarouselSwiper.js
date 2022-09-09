@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -8,20 +8,16 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 import Styles from "./carouselSwiper.module.css";
-
 // import required modules
 import { Autoplay, Pagination, Navigation, EffectFade } from "swiper";
-import Image from "next/image";
-import Header from "../../Header";
-
 const CarouselSwiper = (props) => {
   return (
-    <div className={Styles.container}>
+    <div>
       <Swiper
         modules={[Navigation, Pagination, Autoplay, EffectFade]}
         navigation={true}
         fadeEffect={"fade"}
-        autoplay={{ delay: 3000 }}
+        autoplay={{ delay: 4000 }}
         pagination={{ clickable: true }}
         className={Styles.swiper}
       >

@@ -6,32 +6,35 @@ import Styles from "./Footer.module.css";
 import Link from "next/link";
 const Footer = () => {
   const icons = [
-    { src: "/icons/twitter.PNG", href: "/about" },
-    { src: "/icons/fb.PNG", href: "/offers" },
-    { src: "/icons/ig.PNG", href: "/contact" },
+    { key: 1, src: "/icons/twitter.PNG", href: "/about" },
+    { key: 2, src: "/icons/fb.PNG", href: "/offers" },
+    { key: 3, src: "/icons/ig.PNG", href: "/contact" },
   ];
   return (
     <div className={Styles.footerDiv}>
-      <footer className="bg-link ">
-        <div className="container p-4">
+      <footer>
+        <div className="p-4">
           <section className="mb-4">
             {icons.map((item, index) => {
               return (
                 <Link key={index} href={item.href} role="button">
-                  <Image
-                    className="p-1"
-                    height="50px"
-                    width="50px"
-                    src={item.src}
-                    alt="icon"
-                    id={Styles.iconLinks}
-                  />
+                  <a>
+                    <Image
+                      key={item.key}
+                      className="p-1"
+                      height="50px"
+                      width="50px"
+                      src={item.src}
+                      alt="icon"
+                      id={Styles.iconLinks}
+                    />
+                  </a>
                 </Link>
               );
             })}
           </section>
 
-          <section className="">
+          <section>
             <Links></Links>
           </section>
         </div>

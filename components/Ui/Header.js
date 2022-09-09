@@ -5,7 +5,7 @@ import { StyledButton } from "./StyledButton";
 const Header = (props) => {
   return (
     <div>
-      <div className="">
+      <div>
         <h3 className="d-flex justify-content-center" id={Styles.header}>
           {props.heading}
         </h3>{" "}

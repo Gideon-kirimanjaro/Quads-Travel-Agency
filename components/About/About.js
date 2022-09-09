@@ -9,7 +9,6 @@ import Directors from "./Directors/Directors";
 import Tours from "../Tours/Tours";
 
 const About = () => {
-  console.log("Container", Styles);
   return (
     <div className={Styles.container}>
       <TopNav />
