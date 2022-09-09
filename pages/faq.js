@@ -10,7 +10,9 @@ const faq = () => {
   return (
     <div>
       <Head>
-        <title>Quads Travel Agency</title>
+        <title>FAQ - Travel Agency</title>
+        <meta name="viewport" content="FAQ - Quads Travel Agency" />
+        <meta property="og:title" content="FAQ- Quads Travel Agency" />
         <link rel="icon" href="/favicon.png" />
       </Head>
       <TopNav />

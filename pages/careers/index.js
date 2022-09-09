@@ -6,7 +6,9 @@ const careers = () => {
   return (
     <div>
       <Head>
-        <title>Quads Travel Agency</title>
+        <title>Careers - Quads Travel Agency</title>
+        <meta name="viewport" content="Careers - Quads Travel Agency" />
+        <meta property="og:title" content="Careers- Quads Travel Agency" />
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Careers />

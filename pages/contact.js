@@ -7,7 +7,9 @@ const contact = () => {
   return (
     <div>
       <Head>
-        <title>Quads Travel Agency</title>
+        <title>Contat - Quads Travel Agency</title>
+        <meta name="viewport" content="Contact us - Quads Travel Agency" />
+        <meta property="og:title" content="Contact us- Quads Travel Agency" />
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Contact />

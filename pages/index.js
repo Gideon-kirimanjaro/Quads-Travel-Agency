@@ -14,6 +14,14 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Quads Travel Agency</title>
+        <meta
+          name="viewport"
+          content="Welcome to the best tour company in Kenya. We make a home away from home through our tour packages..."
+        />
+        <meta
+          property="og:title"
+          content="This is the best when it comes to tours and travels"
+        />
         <link rel="icon" href="/favicon.png" />
       </Head>
       <TopNav />

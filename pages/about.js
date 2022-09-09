@@ -6,7 +6,9 @@ const about = () => {
   return (
     <div>
       <Head>
-        <title>Quads Travel Agency</title>
+        <title>About us - Quads Travel Agency</title>
+        <meta name="viewport" content="About us - Quads Travel Agency" />
+        <meta property="og:title" content="About us- Quads Travel Agency" />
         <link rel="icon" href="/favicon.png" />
       </Head>
       <About />
