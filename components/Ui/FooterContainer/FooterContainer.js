@@ -18,7 +18,7 @@ const FooterContainer = () => {
   ];
   return (
     <div className={Styles.container}>
-      <footer className="bg-light ">
+      <footer className="bg-light  ">
         <div className="container p-4">
           <section className="mb-4">
             <p>
@@ -88,7 +88,7 @@ const FooterContainer = () => {
                         +2547000000
                       </Link>
                     </li>
-                    <li>
+                    <li className="">
                       <Link
                         href="mailto:info@quadstravelagency.com"
                         className="text-dark"
