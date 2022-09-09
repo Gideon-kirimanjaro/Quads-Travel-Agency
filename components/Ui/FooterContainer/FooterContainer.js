@@ -92,8 +92,9 @@ const FooterContainer = () => {
                       <Link
                         href="mailto:info@quadstravelagency.com"
                         className="text-dark"
+                        id={Styles.mailLink}
                       >
-                        info@quadstravelagency.com
+                        info@quadstravel agency.com
                       </Link>
                     </li>
                   </ul>
