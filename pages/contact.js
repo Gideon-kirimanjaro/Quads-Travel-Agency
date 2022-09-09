@@ -8,7 +8,7 @@ const contact = () => {
     <div>
       <Head>
         <title>Contat - Quads Travel Agency</title>
-        <meta name="viewport" content="Contact us - Quads Travel Agency" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta property="og:title" content="Contact us- Quads Travel Agency" />
         <link rel="icon" href="/favicon.png" />
       </Head>

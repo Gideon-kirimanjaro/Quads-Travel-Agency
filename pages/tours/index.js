@@ -7,7 +7,7 @@ const tours = () => {
     <div>
       <Head>
         <title>Tours - Quads Travel Agency</title>
-        <meta name="viewport" content="Tours - Quads Travel Agency" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta property="og:title" content="Tours- Quads Travel Agency" />
         <link rel="icon" href="/favicon.png" />
       </Head>

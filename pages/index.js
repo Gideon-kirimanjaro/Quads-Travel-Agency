@@ -14,10 +14,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Quads Travel Agency</title>
-        <meta
-          name="viewport"
-          content="Welcome to the best tour company in Kenya. We make a home away from home through our tour packages..."
-        />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta
           property="og:title"
           content="This is the best when it comes to tours and travels"

@@ -11,7 +11,7 @@ const faq = () => {
     <div>
       <Head>
         <title>FAQ - Travel Agency</title>
-        <meta name="viewport" content="FAQ - Quads Travel Agency" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta property="og:title" content="FAQ- Quads Travel Agency" />
         <link rel="icon" href="/favicon.png" />
       </Head>
