@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import FooterContainer from "../Ui/FooterContainer/FooterContainer";
 import Styles from "./Links.module.css";
 const Links = () => {
   const links = [
@@ -48,7 +49,7 @@ const Links = () => {
   }
   return (
     <div className={Styles.linksDiv}>
-      <div className="d-md-flex justify-content-center mx-md-5 px-md-5 ">
+      {/* <div className="d-md-flex justify-content-center mx-md-5 px-md-5 ">
         <div className="col-lg- col-6 mb-4 mb-md-0 ">
           <div className={Styles.info}>
             {details.map((item, index) => {
@@ -60,8 +61,8 @@ const Links = () => {
                       <Link href="/">
                         <Image
                           alt="icon"
-                          width="20px"
-                          height="20px"
+                          width="16px"
+                          height="16px"
                           src={item.src}
                         />
                       </Link>
@@ -84,8 +85,8 @@ const Links = () => {
                 <Link href="/">
                   <Image
                     alt="icon"
-                    width="20px"
-                    height="20px"
+                    width="16px"
+                    height="16px"
                     src="/icons/pin.png"
                   />
                 </Link>
@@ -131,7 +132,8 @@ const Links = () => {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
+      <FooterContainer />
     </div>
   );
 };

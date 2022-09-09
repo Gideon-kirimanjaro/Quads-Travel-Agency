@@ -31,15 +31,6 @@ const Footer = () => {
             })}
           </section>
 
-          <section className="mb-4">
-            <p className="text-light">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-              distinctio earum repellat quaerat voluptatibus placeat nam,
-              commodi optio pariatur est quia magnam eum harum corrupti dicta,
-              aliquam sequi voluptate quas.
-            </p>
-          </section>
-
           <section className="">
             <Links></Links>
           </section>
