@@ -19,6 +19,7 @@ const Tours = (props) => {
       <div
         style={{
           backgroundColor: "#F8F8F8",
+          fontFamily: "nunito",
         }}
       >
         <Header

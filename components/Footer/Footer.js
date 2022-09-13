@@ -57,11 +57,11 @@ const Footer = () => {
               Quads Travel
             </Link>
           </div>
-          All rights reserved. made with 💙 by &nbsp;
+          <p>All rights reserved. made with 💙 by &nbsp;</p>
           <div className={Styles.linkedInLink}>
             <Link
               target="_blank"
-              href="https://www.linkedin.com/in/gideonkirimanjaro/?originalSubdomain=ke"
+              href="https://ke.linkedin.com/in/gideonkirimanjaro"
             >
               Kai Creatives
             </Link>

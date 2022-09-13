@@ -25,7 +25,7 @@ const Deals = () => {
             <h3>Flash Sales & Discounted Rates</h3>
           </div>
         </div>
-        <div className="row" id={Styles.container}>
+        {/* <div className="row" id={Styles.container}>
           {offersData.map((item, index) => {
             return (
               <div className="col-md-6 col-12 px-3" key={item.key}>
@@ -33,7 +33,10 @@ const Deals = () => {
               </div>
             );
           })}
-        </div>
+        </div> */}
+        <h1 className="d-flex justify-content-center text-primary">
+          GREAT OFFERS COMING SOON 😎 !!
+        </h1>
       </CardWrapper>
     </div>
   );

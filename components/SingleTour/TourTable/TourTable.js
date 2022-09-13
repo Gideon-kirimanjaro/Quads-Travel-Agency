@@ -12,13 +12,13 @@ const TourTable = () => {
     { id: 7, header: "Flying" },
   ];
   const reservationsTd = [
-    { id: 1, details: "Serena" },
-    { id: 2, details: "Mombasa" },
-    { id: 3, details: "Inclusive" },
-    { id: 4, details: "Dec 2022" },
-    { id: 5, details: "ksh 25,000" },
-    { id: 6, details: "ksh 15,000" },
-    { id: 7, details: "ksh 55,000" },
+    { id: 1, details: "" },
+    { id: 2, details: "" },
+    { id: 3, details: "" },
+    { id: 4, details: "" },
+    { id: 5, details: "" },
+    { id: 6, details: "" },
+    { id: 7, details: "" },
   ];
   return (
     <div>

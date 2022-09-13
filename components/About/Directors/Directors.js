@@ -9,19 +9,18 @@ const Directors = () => {
       <div className={Styles.mainDiv}>
         <h3 className="mb-3 h3 d-flex justify-content-center">About us</h3>
         <p id={Styles.about} className="px-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sunt
-          vel, voluptas eaque ratione nam provident repellendus saepe cum!
-          Minima, laudantium sit. Architecto velit laboriosam ullam aspernatur
-          cupiditate doloribus provident. Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Laudantium ipsam nihil temporibus asperiores at esse
-          aperiam corrupti magnam impedit delectus obcaecati, dolorum
-          perferendis unde quia hic nostrum nobis, repellendus eligendi.
+          Quads travel agency is a company that helps connect people to worlds
+          favourite destinations. This is done through a well designed thought
+          process. We make beach tours, nature tours and cultural heritage
+          destinations visits easier and more joyful for you and your loved
+          ones. Our quest is to manage business travel and fulfill vacation
+          dreams through our commitment to personalized, world-class service
         </p>
-        <hr className="my-4" />
-        <h3 className="mb-3 h3 d-flex justify-content-center">
-          Message from the Directors
-        </h3>
 
+        {/* <h3 className="mb-3 h3 d-flex justify-content-center">
+          Message from the Directors
+        </h3> */}
+        {/* 
         <div className="row" id={Styles.container}>
           {directors.map((item, index) => {
             return (
@@ -42,7 +41,7 @@ const Directors = () => {
               </div>
             );
           })}
-        </div>
+        </div> */}
       </div>
       <hr className="my-4" />
     </CardWrapper>

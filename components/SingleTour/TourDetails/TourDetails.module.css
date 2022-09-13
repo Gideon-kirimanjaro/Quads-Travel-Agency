@@ -2,8 +2,9 @@
   background-color: whitesmoke;
 }
 #mainDiv {
-  font-family: 🇲ontserrat;
-  background-color: rgb(255, 255, 255);
+  font-family: nunito;
+  background-color: rgb(232, 244, 255);
+  border-radius: 5%;
 }
 .body {
 }

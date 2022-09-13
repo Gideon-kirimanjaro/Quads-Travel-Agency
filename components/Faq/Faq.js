@@ -13,11 +13,6 @@ const Faq = () => {
       header: "Is it safe to go on safari?",
       body: "Absolutely. Quads Africa has operated camps in East Africa for two decades and has maintained an exemplary safety record over this time. Our safety practices and procedures are not only effective in managing any emergency situation but also in preventing any unsafe situations from occurring both in camp and outside in the bush.",
     },
-    {
-      id: 3,
-      header: "Where are you situated??",
-      body: "Absolutely. Quads Africa has operated camps in East Africa for two decades and has maintained an exemplary safety record over this time. Our safety practices and procedures are not only effective in managing any emergency situation but also in preventing any unsafe situations from occurring both in camp and outside in the bush.",
-    },
   ];
   return (
     <div className={Styles.container}>

@@ -8,14 +8,13 @@ const AdventureSection = () => {
       <CardWrapper>
         <div className="d-md-flex justify-content-between">
           <div className="px-5 pt-4">
-            <h2 className="text-white">Experience The Great African Beaches</h2>
+            <h2 className="text-white">Experience The Great African Safari</h2>
             <p className="text-white">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem{" "}
-              <br></br>
-              sunt vel, voluptas eaque ratione nam provident repellendus saepe
-              cum! Minima, laudantium sit. <br></br>Architecto velit laboriosam
-              ullam aspernatur cupiditate doloribus <br></br> provident. Lorem
-              ipsum dolor sit amet consectetur adipisicing elit
+              National Parks contain some of the most breathtaking landscapes
+              you will ever see. Connect with nature and see the rolling rivers
+              and lush green canyons, colorful sandstone canyons and dramatic
+              peaks and cliffs. Prepare to be inspired by the vast beauty that
+              our treasured National Parks have to offer.
             </p>
             <button
               type="button"
@@ -23,19 +22,19 @@ const AdventureSection = () => {
               data-mdb-ripple-color="#000000"
               id={Styles.buttonLink}
             >
-              <Link href="/offers">Learn More</Link>
+              <Link href="/contact">Learn More</Link>
             </button>
           </div>
           <div className="px-5 pt-md-3 pt-4 pb-2">
-            <div>
+            {/* <div>
               <p className="text-white">DURATION</p>
               <h1 className="text-white">3 days</h1>
-            </div>
+            </div> */}
             <div>
               <p className="text-white">WHERE</p>
-              <h1 className="text-white">Mombasa</h1>
-              <h1 className="text-white">Voi</h1>
-              <h1 className="text-white">Likoni</h1>
+              <h1 className="text-white">Amboseli</h1>
+              <h1 className="text-white">Tsavo</h1>
+              <h1 className="text-white">Meru</h1>
             </div>
           </div>
         </div>

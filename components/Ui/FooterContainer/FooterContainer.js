@@ -6,7 +6,7 @@ const FooterContainer = () => {
     {
       key: 1,
       src: "/icons/phone.png",
-      href: "tel:+254-707-000-574",
+      href: "tel:+254-723-332934",
       title: "+25470000000",
     },
     {
@@ -22,10 +22,12 @@ const FooterContainer = () => {
         <div className="container p-4">
           <section className="mb-4">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-              distinctio earum repellat quaerat voluptatibus placeat nam,
-              commodi optio pariatur est quia magnam eum harum corrupti dicta,
-              aliquam sequi voluptate quas.
+              Working with us guarantees you an experienced local safari guide
+              to design your perfect tour, and get to know the person who will
+              be accompanying you in your search for the Big Five. The guides on
+              Quads Travel Agency offer safaris in all the major national parks
+              and reserves throughout Kenya, Tanzania, South Africa, Uganda,
+              Nairobi, Botswana and more.
             </p>
           </section>
           <div className="ms-5 ps-">
@@ -80,12 +82,12 @@ const FooterContainer = () => {
                   <ul className="list-unstyled mb-0">
                     <li>
                       <Link href="/offers" className="text-dark">
-                        Kilimani,Nairobi
+                        Nairobi
                       </Link>
                     </li>
                     <li>
                       <Link href="tel:+254-707-000-574" className="text-dark">
-                        +2547000000
+                        +254723332934
                       </Link>
                     </li>
                     <li className="">

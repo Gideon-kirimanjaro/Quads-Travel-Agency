@@ -10,6 +10,7 @@ const Offers = () => {
     <div className={Styles.container}>
       <TopNav />
       <Deals />
+
       <AdventureSection />
       <Footer />
     </div>

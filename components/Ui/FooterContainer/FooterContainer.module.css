@@ -4,12 +4,12 @@
 
 .container a {
   text-decoration: none;
-  color: blueviolet;
+  color: #00475a;
   font-size: 20px;
 }
 .container a:hover {
   text-decoration: underline;
-  color: green;
+  color: #62ddff;
   font-size: 20px;
 }
 /* #mailLink {

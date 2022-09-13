@@ -11,14 +11,13 @@ const BodyText = () => {
           <div className="px-md-5">
             <div className="ps-md-2 pe-md-2">
               <p className="p-md-4" id={Styles.bodyText}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
-                sunt vel, voluptas eaque ratione nam provident repellendus saepe
-                cum! Minima, laudantium sit. Architecto velit laboriosam ullam
-                aspernatur cupiditate doloribus provident. Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Laudantium ipsam nihil
-                temporibus asperiores at esse aperiam corrupti magnam impedit
-                delectus obcaecati, dolorum perferendis unde quia hic nostrum
-                nobis, repellendus eligendi.
+                African safari is a once-in-a-lifetime travel experience, a
+                long-held travel dream realized. And so it is important to get
+                it right. Quads Travel Agency provides travelers with the
+                ability to tailor your safari, so it is designed specifically
+                for your unique interests. Because all of the safaris are 100%
+                private, there iss never a need to compromise: the itinerary,
+                pace, schedule are all up to you
               </p>
             </div>
           </div>

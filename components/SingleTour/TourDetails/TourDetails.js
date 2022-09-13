@@ -10,7 +10,9 @@ const TourDetails = (props) => {
       {props.tour.map((item) => {
         return (
           <div key={item.id}>
-            <h5 className="d-flex justify-content-center p-4">{item.body}</h5>
+            <h5 className="d-flex justify-content-center p-4 m-md-4">
+              {item.body}
+            </h5>
             <motion.div
               animate={{
                 boxShadow: "8px 8px 0 rgba(0, 0, 0, 0.2)",
@@ -25,24 +27,24 @@ const TourDetails = (props) => {
                   <div className="d-flex justify-content-between">
                     <div className="pt-4">
                       {" "}
-                      <h4>{item.title}</h4>{" "}
+                      <h2>{item.title}</h2>{" "}
                     </div>
                     <div>
-                      <div className="d-flex">
+                      <div className="d-flex p-2">
                         <Image
                           src="/icons/price.png"
-                          height="55px"
-                          width="55px"
+                          height="30px"
+                          width="30px"
                           alt="icon"
                         />{" "}
                         <h5 className="ps-3 text-info">from</h5>
                         <h3 className="ps-3"> {item.pricing}</h3>
                       </div>
-                      <div className="d-flex">
+                      <div className="d-flex p-2">
                         <Image
                           src="/icons/category.png"
-                          height="50px"
-                          width="50px"
+                          height="30px"
+                          width="30px"
                           alt="icon"
                         />
                         <h5 className="ps-3"> {item.tourType}</h5>
