@@ -3,7 +3,7 @@ import Styles from "./ContactSection.module.css";
 const ContactSection = () => {
   const contactDetails = [
     { key: 1, title: "Office Locations:", description: "Nairobi" },
-    { key: 2, title: "Office Telephone:", description: "+254723332934" },
+    { key: 2, title: "Office Tel:", description: "+254723332934" },
     { key: 3, title: "Whatsapp:", description: "+254723332934" },
     { key: 4, title: "Email:", description: "info@quadstravelagency.com" },
   ];
