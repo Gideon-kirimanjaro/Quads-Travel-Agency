@@ -5,13 +5,13 @@
 .container a {
   text-decoration: none;
   color: #00475a;
-  font-size: 20px;
+  font-size: 17px;
 }
 .container a:hover {
   text-decoration: underline;
   color: #62ddff;
-  font-size: 20px;
+  font-size: 16px;
 }
-/* #mailLink {
-  font-family: 14px;
-} */
+.mailLink {
+  color: red;
+}

@@ -91,13 +91,14 @@ const FooterContainer = () => {
                       </Link>
                     </li>
                     <li className="">
-                      <Link
-                        href="mailto:info@quadstravelagency.com"
-                        className="text-dark"
-                        id={Styles.mailLink}
-                      >
-                        info@quadstravelagency.com
-                      </Link>
+                      <div className="me-3">
+                        <Link
+                          href="mailto:info@quadstravelagency.com"
+                          className={Styles.mailLink}
+                        >
+                          info@quadstravelagency.com
+                        </Link>
+                      </div>
                     </li>
                   </ul>
                 </div>
