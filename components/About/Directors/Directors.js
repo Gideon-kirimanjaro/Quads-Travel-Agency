@@ -19,7 +19,7 @@ const Directors = () => {
         </p>
         <div className="d-flex justify-content-center">
           <a href="/static/profile.pdf" download>
-            Download Our company profile{" "}
+            Download Our company profile
           </a>
           ⤵
         </div>
