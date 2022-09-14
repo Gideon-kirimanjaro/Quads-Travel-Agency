@@ -30,7 +30,7 @@ const FooterContainer = () => {
               Nairobi, Botswana and more.
             </p>
           </section>
-          <div className="ms-5 ps-">
+          <div className="">
             <section className="text-md-center">
               <div className="row">
                 <div className="col-md-4 col-6 mb-4 mb-md-0">
@@ -94,7 +94,7 @@ const FooterContainer = () => {
                       <div>+254725170744</div>
                     </li>
                     <li className="">
-                      <div className="me-3">
+                      <div className="pe-5">
                         <a
                           href="mailto:info@quadstravelagency.com"
                           className={Styles.mailLink}

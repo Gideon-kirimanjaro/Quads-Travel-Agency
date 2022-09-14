@@ -31,22 +31,11 @@ const TourDetails = (props) => {
                     </div>
                     <div>
                       <div className="d-flex p-2">
-                        <Image
-                          src="/icons/price.png"
-                          height="30px"
-                          width="30px"
-                          alt="icon"
-                        />{" "}
-                        <h5 className="ps-3 text-info">from</h5>
+                        <p className="ps-3 text-danger">from:</p>
                         <h3 className="ps-3"> {item.pricing}</h3>
                       </div>
                       <div className="d-flex p-2">
-                        <Image
-                          src="/icons/category.png"
-                          height="30px"
-                          width="30px"
-                          alt="icon"
-                        />
+                        <p className="ps-3 text-danger">tags:</p>
                         <h5 className="ps-3"> {item.tourType}</h5>
                       </div>
                     </div>
