@@ -86,18 +86,21 @@ const FooterContainer = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link href="tel:+254-707-000-574" className="text-dark">
+                      <Link href="tel:+254-723-332-934" className="text-dark">
                         +254723332934
                       </Link>
+                      <div>+254720065094</div>
+                      <div>+254724232534</div>
+                      <div>+254725170744</div>
                     </li>
                     <li className="">
                       <div className="me-3">
-                        <Link
+                        <a
                           href="mailto:info@quadstravelagency.com"
                           className={Styles.mailLink}
                         >
                           info@quadstravelagency.com
-                        </Link>
+                        </a>
                       </div>
                     </li>
                   </ul>
