@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import directors from "../../Data/DirectorsData";
 import CardWrapper from "../../Ui/Wrapper/CardWrapper";
@@ -16,7 +17,12 @@ const Directors = () => {
           ones. Our quest is to manage business travel and fulfill vacation
           dreams through our commitment to personalized, world-class service
         </p>
-
+        <div className="d-flex justify-content-center">
+          <a href="/static/profile.pdf" download>
+            Download Our company profile{" "}
+          </a>
+          ⤵
+        </div>
         {/* <h3 className="mb-3 h3 d-flex justify-content-center">
           Message from the Directors
         </h3> */}
